@@ -1,33 +1,5 @@
-	<nav class="navbar navbar-default navbar-homepage" role="navigation">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			<!-- REVISIT -->
-			<%= image_tag "danish_flag.gif", class: "logo" %>
-		</div>
- 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><p class="brand">Danebook</p></li>  
-				</ul>
-				<form class="navbar-form navbar-left searchbar" role="search">
-					<input type="text" class="form-control" style="width: 100%;" placeholder="Search for Users">
-				</form>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><p class="brand-name">Harry</p></a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container -->
-	</nav>
+	<%= render 'layouts/navbar' %>
       
-
   <div class="container">
  	
 	  <header class="header">
