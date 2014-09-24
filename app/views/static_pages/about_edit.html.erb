@@ -1,0 +1,93 @@
+	<%= render 'layouts/navbar' %>
+      
+  <div class="container">
+ 	
+	  <header class="header">
+	
+	      <div class="top-part">
+	      	  <!-- <img class="cover-photo" src="assets/images/hogwarts_small.jpg"> -->
+	      	  <%= image_tag "hogwarts_small.jpg", class: "cover-photo" %>
+	      	  <!-- <img class='user-photo' src="assets/images/harry_potter_small.jpg"> -->
+	      	  <%= image_tag "harry_potter_small.jpg", class: "user-photo" %>
+	      	  <p class="user-name">Harry Potter</p>
+	      </div>
+	      
+	      <div class="row tablist">
+	  	  	  <ul class ="nav nav-pills" role="tablist"> <!-- list should be dynamic depending on page, i.e. <li class="active"><a href="#">About</a></li>  -->
+	  	          <li><a href="#">Timeline</a></li>
+	  	          <li><a href="#">About</a></li>
+	  	          <li><a href="#">Photos</a></li>
+	  	          <li><a href="#">Friends</a></li>
+	  	          <li class="navbar-right edit-profile"><a href="#">Edit Profile</a></li>
+	  	      </ul>
+	     </div>
+	      
+	     
+	  </header> 
+  </div> 	
+	
+  <div class="container">
+	  <section class="sub-header">
+	    <span><strong>Edit Profile</strong></span>
+	    <button class="btn btn-primary right-btn">Edit Profile</button> <!-- dynamic depending on page -->
+	  </section>
+  </div>
+
+   <div class="container">
+  	  <section class="btm-part"> <!-- should be styled to have black border around everything -->
+  		  <div class="col-md-5">
+  			  <h3>Basic Information</h3>
+  				  <div class="col-md-5">
+	  				  <ul class="about-info">
+  						  <li><strong>Birthday:</strong></li>
+  						  <li class="edit-info"><strong>College:</strong></li>
+  						  <li class="edit-info"><strong>Hometown:</strong></li>
+  						  <li class="edit-info"><strong>Currently Lives:</strong></li>
+  					  </ul>
+  				  </div><!--/.col-md-6 -->
+  				  <div class="col-md-7">
+	  				  <ul class="about-info">
+		  				  <li>July 31st, 1980</li>
+		  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Hogwarts College"></li>
+		  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></li>
+		  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></li>
+		  		    </ul>
+		  	    </div><!--/.col-md-6 -->
+  			<p id="space">-</p> <!-- moves down stubborn contact info section -->
+  			<h3 class="contact">Contact Information</h3>
+  				<div class="col-md-5">
+	  				<ul class="about-info">
+		  				<li><strong>Email:</strong></li>
+		  				<li><strong>Telephone:</strong></li>
+		  			</ul>
+		  		</div><!--/.col-sm-6 -->
+		  		<div class="col-md-7">
+			  		<ul class="about-info">
+				  		<li>harry_potter@hogwarts.edu</li>
+				  		 <li class="form-group"><input type="text" class="custom-form form-control" placeholder="555-123-4567"></li>
+				  	</ul>
+				</div><!--/.col-md-6 -->
+				
+		</div><!--/.col-md-5 -->
+  		
+  		<div class="col-md-7">
+  			<h3>Words to Live By</h3>
+	         <textarea class="form-control custom-form" rows="3" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."></textarea>
+	
+        <h3>About Me</h3>
+        	<textarea class="form-control custom-form" rows="6" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></textarea>
+  		
+      </div><!--/.col-md-7 -->
+  	</section>
+  </div><!--/.container -->
+
+  <div class="container">
+  	<button class="btn btn-primary save-btn" role="save changes">Save Changes</button>
+  </div>
+
+
+
+
+
+
+  <!-- form layout  <div class="col-sm-6"><input type="text" class="custom-form form-control" placeholder="Last Name"></div> -->
