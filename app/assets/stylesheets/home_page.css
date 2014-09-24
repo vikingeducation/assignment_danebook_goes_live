@@ -1,4 +1,4 @@
-/*/* Bootstrap Extensions for Danebook Homepage
+/* Bootstrap Extensions for Danebook Homepage
 
 -----------------------------------------*/
 
@@ -9,7 +9,7 @@
     color: #979797;
     margin-top: 15px;}
 
-.navbar {
+.navbar.navbar-homepage {
   background-color: #2e75de;
   color: #fff;
   border-radius: 0;
@@ -22,17 +22,17 @@
   margin-top: 20px;
   margin-left: 20px; }
   .navbar-header p {
-	  color: #fff; }
+    color: #fff; }
 
 .navbar-collapse {
-	border: none; }
-	
-.navbar-default .navbar-form {
-	border-color: #2e75de; }
+  border: none; }
+  
+.navbar-default.navbar-form {
+  border-color: #2e75de; }
 
 .navbar-toggle{
-	background-color: #fff; }
-	
+  background-color: #fff; }
+  
 .btn-primary {
   background-color: #6caafa;
   color: #000;
