@@ -12,15 +12,15 @@
 	      	  <p class="user-name">Harry Potter</p>
 	      </div>
 	      
-	      <div class="row tablist">
-	  	  	  <ul class ="nav nav-pills" role="tablist"> <!-- list should be dynamic depending on page, i.e. <li class="active"><a href="#">About</a></li>  -->
-	  	          <li><a href="#">Timeline</a></li>
-	  	          <li><a href="#">About</a></li>
-	  	          <li class="active"><a href="#">Photos</a></li>
-	  	          <li><a href="#">Friends</a></li>
-	  	          <li class="navbar-right edit-profile"><a href="#">Edit Profile</a></li>
-	  	      </ul>
-	     </div>
+	       <div class="row tablist">
+            <ul class ="nav nav-pills" role="tablist">
+                <li><%= link_to "Timeline", timeline_path %></li>
+                <li><%= link_to "About", about_path %></li>
+                <li class="active"><%= link_to "Photos", photos_path %></li>
+                <li><%= link_to "Friends", friends_path %></li>
+                <li class="navbar-right edit-profile"><%= link_to "Edit Profile", about_edit_path %></li>
+            </ul>
+       </div>
 	      
 	     
 	  </header> 
