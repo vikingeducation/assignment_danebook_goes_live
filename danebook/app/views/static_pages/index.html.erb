@@ -1,17 +1,19 @@
+<%= render 'layouts/navbar' %>
 <main class="container">
 	<div class="row">
 		<section class="col-md-7 home_left">
 			<p><h2>Connect with all your friends!</h2></p>
-			<ul>
-				<li><strong>See photos and updates</strong> in your news feed.</li>
-				<li><strong>Post your status for the world to see</strong> from your profile</li>
-				<li><strong>Get in touch with your friends</strong> by "friending" them</li>
-				<li><strong>Like things</strong> because you're a positive person!</li>
+			<ul id="index_left_list">
+				<li><strong><%= image_tag("homepage_1.png")%>     See photos and updates</strong> in your news feed.</li>
+				<li><strong><%= image_tag("homepage_2.png")%>     Post your status for the world to see</strong> from your profile</li>
+				<li><strong><%= image_tag("homepage_3.png")%>     Get in touch with your friends</strong> by "friending" them</li>
+				<li><strong><%= image_tag("homepage_4.png")%>     Like things</strong> because you're a positive person!</li>
 			</ul>
 		</section><!-- end left homepage section -->
 		
 		<section class="col-md-5">
-			<p><h1>Sign Up</h1></p>
+			<h1 id="index_sign_up">Sign Up</h1>
+			<p id="index_sign_up_text">It's 'free'... <em>for now.</em></p>
 			<form role="form" class="form-horizontal">
 				<div class="form-group"> <!-- first and last name inputs -->
 					<div class="col-sm-6"><input type="text" placeholder="First Name" class="form-control"></div>
@@ -182,17 +184,17 @@
 				</div>
 
 				<div class="form-group">
-					<div class="col-sm-12">
+					<div class="col-sm-12 gender_choice">
 						<label class="radio-inline">
-							<input type="radio" name="homepage_gender" id="maleRadio" value="male">Male
+							<input type="radio" name="homepage_gender" id="femaleRadio" value="female">Female
 						</label>
 						<label class="radio-inline">
-							<input type="radio" name="homepage_gender" id="femaleRadio" value="male">Female
+							<input type="radio" name="homepage_gender" id="maleRadio" value="male">Male
 						</label>
 					</div>
 				</div>
 
-				<button type="button" class="btn btn-success btn-lg btn-block" id="sign_up_button">Sign Up!</button>
+				<button type="button" class="btn btn-success btn-lg col-sm-6" id="sign_up_button">Sign Up</button>
 			</form>
 		</section>
 	</div><!-- / main row-->
