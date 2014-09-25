@@ -1,0 +1,129 @@
+<%= render 'layouts/navbar' %>
+      
+  <div class="container">
+ 	
+	  <header class="header">
+	
+	      <div class="top-part">
+	      	  <!-- <img class="cover-photo" src="assets/images/hogwarts_small.jpg"> -->
+	      	  <%= image_tag "hogwarts_small.jpg", class: "cover-photo" %>
+	      	  <!-- <img class='user-photo' src="assets/images/harry_potter_small.jpg"> -->
+	      	  <%= image_tag "harry_potter_small.jpg", class: "user-photo" %>
+	      	  <p class="user-name">Harry Potter</p>
+	      </div>
+	      
+	      <div class="row tablist">
+	  	  	  <ul class ="nav nav-pills" role="tablist">
+	  	          <li><a href="#">Timeline</a></li>
+	  	          <li><a href="#">About</a></li>
+	  	          <li><a href="#">Photos</a></li>
+	  	          <li class="active"><a href="#">Friends</a></li>
+	  	          <li class="navbar-right edit-profile"><a href="#">Edit Profile</a></li> 
+	  	      </ul>
+	     </div>
+	      
+	     
+	  </header> 
+  </div> 	
+	
+  <div class="container">
+	    <section class="col-md-5 left-section">
+	        <div class="about-box">
+	    		    <h4>About</h4>
+	    		    <ul>
+	    		        <li><strong>Born on:</strong> July 31st, 1980</li>
+	    			      <li><strong>Went to school at:</strong> Hogwarts</li>
+	    			      <li><strong>Hometown:</strong> Godrick's Hollow, England</li>
+	    			      <li><strong>Currently Lives:</strong> Godrick's Hollow</li>
+              </ul>
+          </div><!-- /.about-box -->
+
+          <div class="photos-box">
+              <h4>Photos (123)</h4>
+              <div >
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+              </div><!-- /div-->
+              <div>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+              </div><!-- /div-->
+              <div>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+              </div><!-- /div-->
+              <div>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+                  <%= link_to image_tag("icon_photo_small.png", class: "photo-small col-sm-4"), "#" %>
+              </div><!-- /div -->
+              <a href="#">See More Photos</a>
+          </div><!-- /.photos-box -->
+
+          <div class="friends-box">
+              <h4>Friends (542)</h4>
+              <div>
+                  <div class="col-sm-4">
+                      <%= image_tag "user_silhouette_generic.png", class: "friend-box-photo" %>
+                      <a href="#">Ron Weasley</a>
+                  </div>
+                  <div class="col-sm-4">
+                      <%= image_tag "user_silhouette_generic.png", class: "friend-box-photo" %>
+                      <a href="#">Ginny Weasley</a>
+                  </div>
+                  <div class="col-sm-4">
+                      <%= image_tag "user_silhouette_generic.png", class: "friend-box-photo" %>
+                      <a href="#">Hermoine Granger</a>
+                  </div>
+              </div>
+              <div>
+                  <div class="col-sm-4">
+                      <%= image_tag "user_silhouette_generic.png", class: "friend-box-photo" %>
+                      <a href="#">Ron Weasley</a>
+                  </div>
+                  <div class="col-sm-4">
+                      <%= image_tag "user_silhouette_generic.png", class: "friend-box-photo" %>
+                      <a href="#">Ginny Weasley</a>
+                  </div>
+                  <div class="col-sm-4">
+                      <%= image_tag "user_silhouette_generic.png", class: "friend-box-photo" %>
+                      <a href="#">Hermoine Granger</a>
+                  </div>
+              </div>
+              <a href="#">See More Friends</a>
+	    </section><!-- /.left-section -->
+
+	    <section class="col-md-7 right-section">
+	 		    <div class="post-area">
+	 		        <h4>Post</h4>
+	 		        <div class="post-box">
+	 		            <textarea class="form-control" rows="3" placeholder="Tell the world something..."></textarea>
+	 		        </div>
+	 		        <div class="btn-box">
+	 		            <button class="btn btn-primary btn-post">Post</button>
+	 		        </div>
+	 		    </div><!-- /.post -->
+          
+          <div class="post">
+              <%= image_tag "user_silhouette_generic.png", class: "user-photo-xs" %>
+              <div class="post-info">
+                  <%= link_to "Harry Potter", href="#" %>
+                  <p>Posted on Thursday 6/1/2014</p>
+              </div>
+              <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="post-links">
+                <ul>
+                  <li><%= link_to "Like", "#" %></li>
+                  <li><%= link_to "Comment", "#" %></li>
+                  <li><%= link_to "Delete", "#", class: "post-delete-link" %></li>
+                </ul>
+              </div>
+          </div>
+
+	    </section><!-- /.left-section -->
+
+
+  </div>
