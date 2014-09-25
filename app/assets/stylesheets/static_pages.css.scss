@@ -133,11 +133,18 @@
 }
 
 
+/* Photos Page Customs
+---------------------------- */
 
+.photo {
+	text-align: center;
+	height: 250px;
+	margin-top: 5px;
+}
 
-
-
-
+a:hover .photo {
+	background: rgba(0,0,0,0.5);
+}
 
 
 

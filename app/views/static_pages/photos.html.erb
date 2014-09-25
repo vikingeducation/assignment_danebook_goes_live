@@ -1,0 +1,63 @@
+<%= render 'layouts/navbar' %>
+      
+  <div class="container">
+ 	
+	  <header class="header">
+	
+	      <div class="top-part">
+	      	  <!-- <img class="cover-photo" src="assets/images/hogwarts_small.jpg"> -->
+	      	  <%= image_tag "hogwarts_small.jpg", class: "cover-photo" %>
+	      	  <!-- <img class='user-photo' src="assets/images/harry_potter_small.jpg"> -->
+	      	  <%= image_tag "harry_potter_small.jpg", class: "user-photo" %>
+	      	  <p class="user-name">Harry Potter</p>
+	      </div>
+	      
+	      <div class="row tablist">
+	  	  	  <ul class ="nav nav-pills" role="tablist"> <!-- list should be dynamic depending on page, i.e. <li class="active"><a href="#">About</a></li>  -->
+	  	          <li><a href="#">Timeline</a></li>
+	  	          <li><a href="#">About</a></li>
+	  	          <li><a href="#">Photos</a></li>
+	  	          <li><a href="#">Friends</a></li>
+	  	          <li class="navbar-right edit-profile"><a href="#">Edit Profile</a></li>
+	  	      </ul>
+	     </div>
+	      
+	     
+	  </header> 
+  </div> 	
+	
+  <div class="container">
+	  <section class="sub-header">
+	    <span><strong>Photos</strong></span>
+	    <button class="btn btn-primary right-btn">Add Photo</button> <!-- dynamic depending on page -->
+	  </section>
+  </div>
+
+  <section class="container">
+      <div class>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+      </div><!-- /.row -->
+      <div>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+      </div><!-- /.row -->
+      <div>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+      </div><!-- /.row -->
+      <div>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+          <%= link_to image_tag("icon_photo_small.png", class: "photo col-md-3"), "#" %>
+      </div><!-- /.row -->
+
+  </section><!-- /.container -->
