@@ -4,23 +4,23 @@
  	
 	  <header class="header">
 	
-	      <div class="top-part">
-	      	  <!-- <img class="cover-photo" src="assets/images/hogwarts_small.jpg"> -->
-	      	  <%= image_tag "hogwarts_small.jpg", class: "cover-photo" %>
-	      	  <!-- <img class='user-photo' src="assets/images/harry_potter_small.jpg"> -->
-	      	  <%= image_tag "harry_potter_small.jpg", class: "user-photo" %>
-	      	  <p class="user-name">Harry Potter</p>
-	      </div>
+	    <div class="top-part">
+    	  <!-- <img class="cover-photo" src="assets/images/hogwarts_small.jpg"> -->
+    	  <%= image_tag "hogwarts_small.jpg", class: "cover-photo" %>
+    	  <!-- <img class='user-photo' src="assets/images/harry_potter_small.jpg"> -->
+    	  <%= image_tag "harry_potter_small.jpg", class: "user-photo" %>
+    	  <p class="user-name">Harry Potter</p>
+	    </div>
 	      
-	      <div class="row tablist">
-	  	  	  <ul class ="nav nav-pills" role="tablist">
-	  	          <li><%= link_to "Timeline", timeline_path %></li>
-	  	          <li><%= link_to "About", about_path %></li>
-	  	          <li><%= link_to "Photos", photos_path %></li>
-	  	          <li><%= link_to "Friends", friends_path %></li>
-	  	          <li class="navbar-right edit-profile"><%= link_to "Edit Profile", about_edit_path %></li>
-	  	      </ul>
-	     </div>
+      <div class="row tablist">
+	  	  <ul class ="nav nav-pills" role="tablist">
+          <li><%= link_to "Timeline", timeline_path %></li>
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "Photos", photos_path %></li>
+          <li><%= link_to "Friends", friends_path %></li>
+          <li class="navbar-right edit-profile"><%= link_to "Edit Profile", about_edit_path %></li>
+	      </ul>
+      </div>
 	      
 	     
 	  </header> 
@@ -33,40 +33,40 @@
 	  </section>
   </div>
 
-   <div class="container">
-  	  <section class="btm-part"> <!-- should be styled to have black border around everything -->
-  		  <div class="col-md-5">
-  			  <h3>Basic Information</h3>
-  				  <div class="col-md-5">
-	  				  <ul class="about-info">
-  						  <li><strong>Birthday:</strong></li>
-  						  <li class="edit-info"><strong>College:</strong></li>
-  						  <li class="edit-info"><strong>Hometown:</strong></li>
-  						  <li class="edit-info"><strong>Currently Lives:</strong></li>
-  					  </ul>
-  				  </div><!--/.col-md-6 -->
-  				  <div class="col-md-7">
-	  				  <ul class="about-info">
-		  				  <li>July 31st, 1980</li>
-		  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Hogwarts College"></li>
-		  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></li>
-		  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></li>
-		  		    </ul>
-		  	    </div><!--/.col-md-6 -->
-  			<p id="space">-</p> <!-- moves down stubborn contact info section -->
-  			<h3 class="contact">Contact Information</h3>
-  				<div class="col-md-5">
-	  				<ul class="about-info">
-		  				<li><strong>Email:</strong></li>
-		  				<li><strong>Telephone:</strong></li>
-		  			</ul>
-		  		</div><!--/.col-sm-6 -->
-		  		<div class="col-md-7">
-			  		<ul class="about-info">
-				  		<li>harry_potter@hogwarts.edu</li>
-				  		 <li class="form-group"><input type="text" class="custom-form form-control" placeholder="555-123-4567"></li>
-				  	</ul>
-				</div><!--/.col-md-6 -->
+  <div class="container">
+	  <section class="btm-part"> <!-- should be styled to have black border around everything -->
+		  <div class="col-md-5">
+			  <h3>Basic Information</h3>
+				  <div class="col-md-5">
+  				  <ul class="about-info">
+						  <li><strong>Birthday:</strong></li>
+						  <li class="edit-info"><strong>College:</strong></li>
+						  <li class="edit-info"><strong>Hometown:</strong></li>
+						  <li class="edit-info"><strong>Currently Lives:</strong></li>
+					  </ul>
+				  </div><!--/.col-md-6 -->
+				  <div class="col-md-7">
+  				  <ul class="about-info">
+	  				  <li>July 31st, 1980</li>
+	  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Hogwarts College"></li>
+	  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></li>
+	  				  <li class="form-group"><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></li>
+	  		    </ul>
+	  	    </div><!--/.col-md-6 -->
+			<p id="space">-</p> <!-- moves down stubborn contact info section -->
+			<h3 class="contact">Contact Information</h3>
+				<div class="col-md-5">
+  				<ul class="about-info">
+	  				<li><strong>Email:</strong></li>
+	  				<li><strong>Telephone:</strong></li>
+	  			</ul>
+	  		</div><!--/.col-sm-6 -->
+	  		<div class="col-md-7">
+		  		<ul class="about-info">
+			  		<li>harry_potter@hogwarts.edu</li>
+			  		 <li class="form-group"><input type="text" class="custom-form form-control" placeholder="555-123-4567"></li>
+			  	</ul>
+			</div><!--/.col-md-6 -->
 				
 		</div><!--/.col-md-5 -->
   		
