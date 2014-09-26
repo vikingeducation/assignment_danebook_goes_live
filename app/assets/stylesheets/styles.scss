@@ -1,0 +1,260 @@
+/* styles.scss */
+/* VARIABLES */
+$danebook-blue:#3B5998;
+$title-block-grey: rgb(247,247,247);
+$background-grey: rgb(236,236,239);
+$primary-border-grey: #d3d6db;
+
+/* UNVERSAL STYLES */
+
+body {
+	padding-top:40px;
+}
+
+span {
+	color:#bbb;
+	font-size:14px;
+}
+
+/* NAVBAR STYLES */
+.top-navbar {
+	background-color: $danebook-blue;
+	border: $danebook-blue;
+	height: 70px;
+}
+.navbar-header{
+	a{
+		.logo {		
+			margin-right: 10px;
+			width:auto;
+			height:30px;
+		}
+		.logo-text {
+			margin-top: 10px;
+			color:#FFF;
+			&:hover {
+				color:#BBB;
+			}
+		}
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+.menu-btn {
+	margin-top:15px;
+}
+
+.nav-responsive-wrapper {
+	background-color: $danebook-blue;
+	border: $danebook-blue;
+	.navbar-form {
+		display:inline-block;
+		margin-top:15px;
+		width: 60%;
+		.nav-search-wrapper {
+			width:100%;
+			.form-control{
+				width: 100%;
+			}
+		}
+	}
+}
+
+#navbar-usr-profile {
+	padding: 15px 0 0 20px;
+	display:inline-block;
+}
+
+/* COVER PHOTO BLOCK STYLES */
+
+.cover-profile-block {
+	border: 1px solid $primary-border-grey;
+	.profile-name {
+		position: relative;
+		color:#FFF;
+		margin-left:180px;
+		top:400px
+
+	}
+	.cover-photo {
+		background:url("http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat center;
+		background-size: cover;
+		height: 450px;
+	}
+}
+.profile-photo-wrapper {
+	.profile-photo{
+		padding: 4px;
+		position: relative;
+		width: 160px;
+		height: 160px;
+		overflow: hidden;
+		z-index: 101;
+		top: 270px;
+		left: 10px;
+	}
+}
+
+.edit {
+	float:right;
+	padding-top:15px;
+}
+
+	.menu-item {
+		float:left;
+		padding: 0 10px;
+		border: 1px solid $primary-border-grey;
+		a {
+			text-decoration: none;
+			color: #555;
+		}
+
+	}
+
+/* EDIT ABOUT */
+.edit-profile-box{
+	resize:none;
+}
+
+.information-textarea{
+	height:2em;
+
+}
+
+/* PHOTOS */
+
+.photos-page {
+	img {
+		&:hover{
+			opacity: 0.5;
+		}
+	}
+}
+
+/* FRIENDS */
+.friend-box{
+	display:inline-flex;
+}
+
+.friends-page-img{
+	width:100px;
+	height:100px;
+	margin: 15px 15px 15px 0;
+}
+
+/* TIMELINE */
+
+.bkg-fix {
+	background-color:white;
+	// height: 200px;
+	border:1px solid $primary-border-grey;
+	border-radius: 3px;
+}
+
+
+.post-input{
+	margin: 20px 0;
+	height: 63px;
+	width: 100%;
+	border: 1px solid $primary-border-grey;
+	word-wrap: break-all;
+	resize:none;
+}
+
+.post-button {
+	margin: 5px;
+	background-color:rgb(83,129,227);
+	color: white;
+}
+
+.post-friend {
+	display:inline-flex;
+	vertical-align: middle;
+}
+
+.post-friend-thumb {
+	width: 60px;
+	height: 60px;
+	overflow:none;
+	padding:5px;
+
+}
+
+.post-friend-info {
+	padding-top: 10px;
+}
+
+.post-text {
+	padding-left:15px;
+	margin: 5px;
+}
+
+.comment-friend-thumb {
+	width:65px;
+	height: auto;
+}
+
+.grey-title {
+	border: 1px solid $primary-border-grey;
+	background-color: $title-block-grey;
+	height: 40px;
+	text-align: center;
+}
+
+.grey-footer {
+	border: 1px solid $primary-border-grey;
+	background-color: $title-block-grey;
+	height: 100%;
+	padding: 5px 0;
+}
+
+.like-or-comment{
+	a{
+		padding-right: 10px;
+	}
+}
+
+.delete-post{
+	a{
+		float:right;
+	}
+}
+
+#cancel {
+	float: left;
+}
+
+/* test tools */
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.buffer {
+	margin: 15px 0;
+}
+
+.testfill {
+	height: 140px;
+}
+
+
+.testred {
+	background-color:red;
+}
+
+.testblue {
+	background-color:blue;
+
+}
+
+.fill {
+	height:100%
+}
+.fillw{
+	width:100%
+}
+

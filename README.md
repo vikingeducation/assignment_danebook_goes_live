@@ -1,7 +1,8 @@
 # Danebook!
 ==================
 
-Paul H. Hyman (phyman.com | GitHub: phyman)
+Paul H. Hyman (phyman.com | GitHub: phyman) - ror
+Peter DePaulo (GitHub: pndpo ) - html/css
 
 This is a straight up copy of the existing site Bookface, but is targeted to Danish students.
 
