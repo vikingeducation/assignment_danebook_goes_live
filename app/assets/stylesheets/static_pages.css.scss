@@ -148,16 +148,35 @@ color: #fff;
 	text-align: center;
 	height: 250px;
 	margin-bottom: 20px;
+	position: relative;
 }
 
-a:hover .photo {
+span.text-content {
 	background: rgba(0,0,0,0.5);
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  height: 50px;
+  position: absolute;
+  bottom: 45px;
+  letf: 3px;
+  width: 98%;
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
+span.text-content span {
+	display: table-cell;
+  text-align: center;
+  vertical-align: center;
+}
+
+div:hover span.text-content {
+  opacity: 1;
+}
 
 /* Friends Page Customs
 ---------------------------- */
-
 
 .friend-box {
 	position: relative;
