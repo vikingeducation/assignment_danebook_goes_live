@@ -1,5 +1,7 @@
 # Welcome to Danebook!
 
+[Live Demo](http://danebook.herokuapp.com) [http://danebook.herokuapp.com]
+
 ### Written by: [Tom McLaughlin](http://github.com/tim5046)
 #### This project was built as part of [Viking Code School](http://vikingcodeschool.com). Check out VCS, it's awesome.
 
