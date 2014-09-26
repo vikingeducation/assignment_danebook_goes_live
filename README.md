@@ -1,6 +1,10 @@
-danebook_goes_live
+# Danebook!
 ==================
 
-Week 3 Solo Assignment
+Paul H. Hyman (phyman.com | GitHub: phyman)
 
-This is your README!
+This is a straight up copy of the existing site Bookface, but is targeted to Danish students.
+
+[Another fine project brought to you by the Viking Code School](http://vikingcodeschool.com)
+
+Contact us at 321-867-5309
