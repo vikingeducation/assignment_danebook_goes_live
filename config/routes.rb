@@ -2,6 +2,14 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
+  get '/about'  => 'static_pages#about'
+  get '/about_edit' => 'static_pages#about_edit'
+  get '/friends' => 'static_pages#friends'
+  get '/friend' => 'static_pages#friends' # friend (singular) and friends point to the same page for good UX
+  get '/photos' => 'static_pages#photos'
+  get '/photo' => 'static_pages#photos' # photo (singular) and photos point to the same page for good UX
+  get '/timeline' => 'static_pages#timeline'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
