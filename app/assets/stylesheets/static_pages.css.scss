@@ -1,0 +1,311 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Bootstrap Overrides */
+
+.navbar-default {
+	background-color: #2e75de;
+	border-radius: 0;
+	border: none;
+}
+
+.nav-pills.li {
+	border-radius: 0;
+	
+}
+
+.navbar-default .navbar-nav li a {
+color: #fff;
+}
+
+
+/* Custom CSS
+----------------------------  */
+.logo {
+	padding-top: 2px;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+.searchbar {
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+.brand {
+	font-size: 2em;
+	margin: 7px 0 0 15px;
+	color: #fff;
+}
+
+.brand-name {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.header {
+	border: 2px solid #000;
+	margin-top: -20px;
+}
+
+.top-part {
+	position: relative;
+	height: 450px;
+	width: 100%;	
+}
+
+.cover-photo {
+	width: 100%;
+	height: 450px;
+}
+
+.user-photo {
+	position: absolute;
+	bottom: -25px;
+	left: 25px;
+}
+
+.user-name {
+	position: absolute;
+	color: #fff;
+	font-size: 3em;
+	left: 280px;
+	bottom: 0px;
+}
+
+.tablist {
+	margin-left: 250px;
+}
+
+.edit-profile {
+	margin-right: 60px;
+}
+
+.sub-header {
+	text-align: center;
+	font-size: 2em;
+	background-color: #e9eaed;
+	border: 2px solid #000;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.right-btn {
+	float: right;
+	margin: 3px 10px 0 0;
+}
+
+/* About Page Customs
+---------------------------- */
+
+
+.about-info {
+	padding-left: 0;
+	margin-left: -15px;
+}
+
+.about-info li {
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+#space {
+	color: #fff;
+}
+
+.btm-part {
+	margin-top: -30px;
+}
+
+
+/* About Edit Page Customs
+---------------------------- */
+
+.edit-info {
+	padding-top: 13px;
+}
+
+.save-btn {
+	margin: 40px 0 40px 345px;
+	background-color: #2e75de;
+	color: #fff;
+	font-size: 2em;
+	padding: 0 110px 0 110px;
+	box-shadow: 3px 3px 5px 1px #ccc; 
+}
+
+
+/* Photos Page Customs
+---------------------------- */
+
+.photo {
+	text-align: center;
+	height: 250px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+span.text-content {
+	background: rgba(0,0,0,0.5);
+  color: #fff;
+  cursor: pointer;
+  display: table;
+  height: 50px;
+  position: absolute;
+  bottom: 45px;
+  letf: 3px;
+  width: 98%;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+span.text-content span {
+	display: table-cell;
+  text-align: center;
+  vertical-align: center;
+}
+
+div:hover span.text-content {
+  opacity: 1;
+}
+
+/* Friends Page Customs
+---------------------------- */
+
+.friend-box {
+	position: relative;
+	margin-bottom: 30px;
+	margin-left: 55px;
+	height: 180px;
+	border: 2px solid #000;
+}
+
+.user-photo-small {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	height: 150px;
+	width: 150px;
+}
+
+.friend-info {
+	position: absolute;
+	top: 85px;
+	left: 180px;
+	font-size: 1.1em;
+}
+
+.btn-unfriend {
+	position: absolute;
+	top: 85px;
+	left: 330px;
+}
+
+
+/* Timeline Page Customs
+---------------------------- */
+
+.left-section {
+	margin-top: 20px;
+
+}
+
+.about-box h4, .photos-box h4, .friends-box h4, .post-area h4 {
+	text-align: center;
+	background-color: #e9eaed;
+	padding: 4px;
+	margin-top: 0;
+	border-bottom: 2px solid #000;
+}
+
+.about-box, .photos-box, .friends-box, .post-area {
+	border: 2px solid #000;
+	margin-bottom: 20px;
+}
+
+.about-box ul {
+	list-style-type: none;
+	font-size: 1.2em;
+	margin-left: 20px;
+}
+
+.photos-box {
+	text-align: center;
+}
+
+.friend-box-photo {
+	width: 100%;
+}
+
+.friends-box {
+	text-align: center;
+}
+
+.right-section {
+	margin-top: 20px;
+}
+
+.post {
+	border: 2px solid #000;
+	position: relative;
+}
+
+.post-area {
+	text-align: right;
+}
+
+.post-box {
+	margin: 30px 0 40px 0;
+}
+
+.btn-box {
+	background-color: #e9eaed;
+	border-top: 2px solid #000;
+	padding: 5px;
+}
+
+.user-photo-xs {
+	height: 75px;
+	width: 75px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.post-info {
+	position: absolute;
+	top: 30px;
+	left: 90px;
+}
+
+.post-links {
+	background-color: #e9eaed;
+	border-top: 2px solid #000;
+}
+
+.post-links ul {
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+.post-links li{
+	list-style-type: none;
+	display: inline;
+	font-size: 1.1em;
+	margin-left: 30px;
+	margin-bottom: 0;
+}
+
+.post-text {
+	margin-top: 100px;
+	padding: 10px;
+}
+
+.post-delete-link {
+	margin-left: 320px;
+}
+
+

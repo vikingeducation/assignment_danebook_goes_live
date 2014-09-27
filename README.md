@@ -1,6 +1,9 @@
-danebook_goes_live
-==================
+## This. Is. Danebook!
 
-Week 3 Solo Assignment
+### Brought to you by [The Viking Code School](http://vikingcodeschool.com). 
 
-This is your README!
+Lovingly contributed to by [Matt Davis](https://github.com/chewieee)
+
+Danebook is a Facebook-like clone that was built using Rails and other technologies by the first cohort of VCS.
+
+
