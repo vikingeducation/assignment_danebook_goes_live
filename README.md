@@ -1,6 +1,12 @@
 danebook_goes_live
 ==================
 
-Week 3 Solo Assignment
+This is a clone of Facebook that I completed for the Viking Code School
 
-This is your README!
+http://vikingcodeschool.com
+
+Stack:
+Ruby
+On Rails!
+Bootstrap
+Heroku
