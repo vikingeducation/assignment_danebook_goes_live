@@ -1,0 +1,30 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main {
+  padding-top: 80px;
+}
+
+.connect {
+  padding-top: 50px;
+}
+
+.navbar-inverse {
+    background-color: #3b5998;
+}
+
+.navbar-inverse .navbar-brand{
+  color: white;
+  font-size: 30px;
+}
+
+.spacer-custom-class {
+  padding-top: 20px;
+  line-height: 2;
+}
+
+.buttons-custom-class {
+  margin-right: 10px;
+
+}
