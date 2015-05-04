@@ -5,6 +5,9 @@ class StaticPagesController < ApplicationController
   def about
   end
 
+  def about_edit
+  end
+
   def friends
   end
 
