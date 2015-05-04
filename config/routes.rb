@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
-  resources :static_pages
+  StaticPagesController.action_methods.each do |action|
+    get "/#{action}", to: "static_pages##{action}", as: "#{action}_page"
+  end
 end
