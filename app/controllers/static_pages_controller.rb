@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def photos
   end
+
+  def timeline
+  end
 end
