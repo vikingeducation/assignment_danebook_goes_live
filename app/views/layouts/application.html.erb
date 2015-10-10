@@ -23,9 +23,22 @@
 </head>
 <body>
 
-<%= render "shared/navbar" %>
+  <%= render "shared/topbar" %>
 
-<%= yield %>
+  <!-- Main body container -->
+  <div class="container">
+
+    <% unless current_page?(action: 'home') %>
+
+      <%= render "shared/profile_cover_photo" %>
+
+      <%= render "shared/middle_nav" %>
+
+    <% end %>
+
+    <%= yield %>
+
+  </div><!-- End main body container -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
