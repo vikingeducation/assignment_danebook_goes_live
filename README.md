@@ -1,4 +1,7 @@
-danebook_goes_live
-==================
+#Danebook!
 
-This is your README!
+by [Justin Mullis](https://github.com/nonadmin)
+part of [Viking Code School](http://www.vikingcodeschool.com/)
+
+
+Deployed on [Heroku](https://calm-brushlands-7082.herokuapp.com)
