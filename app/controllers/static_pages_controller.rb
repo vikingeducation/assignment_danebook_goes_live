@@ -15,6 +15,9 @@ class StaticPagesController < ApplicationController
   def about
   end
 
+  def photos
+  end
+
   private
 
   def set_logged_in

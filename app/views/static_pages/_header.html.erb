@@ -20,7 +20,11 @@
         <!-- TODO: fix which is active, add links -->
         <li class="active"><%= link_to 'Timeline', timeline_path %></li>
         <li><%= link_to 'About', about_path %></li>
-        <li><a href="photos.html">Photos <small class="text-muted">(47)</small></a></li>
+        <li>
+          <%= link_to photos_path do %>
+            Photos <small class="text-muted">(47)</small>
+          <% end %>
+        </li>
         <li>
           <%= link_to friends_path do %>
             Friends <small class="text-muted">(447)</small>
