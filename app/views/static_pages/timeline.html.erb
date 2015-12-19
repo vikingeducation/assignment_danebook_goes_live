@@ -1,35 +1,4 @@
-<!-- Cover photo spans the full width of the page, displays the sample cover photo. -->
-<header>
-  <div class="row">
-    <div class="col-sm-12">
-      <%= image_tag "cover.jpg", id: "cover-photo", class: "img-responsive", alt: "User's cover photo" %>
-    </div>
-  </div>
-  <div class="row">
-
-    <!-- Profile photo displays atop cover photo -->
-    <div id="profile-pic-container" class="col-sm-3">
-      <%= image_tag "athena.jpg", id: "profile-photo", class: "img-responsive img-thumbnail" %>
-    </div>
-
-    <!-- Links to Timeline, About, Photos, and Friends pages.  The "current" page is indicated via being grayed out.  Friends and photo counts indicated -->
-
-    <!-- TODO:  fix mobile version -->
-    <div id="profile-nav" class="col-sm-9">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="timeline.html">Timeline</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="photos.html">Photos <small class="text-muted">(47)</small></a></li>
-        <li><a href="friends.html">Friends <small class="text-muted">(447)</small></a></li>
-      </ul>
-      <!-- A link to edit profile is included  -->
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="about_edit.html">Edit Profile</a></li>
-      </ul>
-    </div>
-
-  </div> <!-- row for profile pic and nav -->
-</header>
+<%= render 'header' %>
 
 <!-- The main information pane contains basic information, contact information, words to live by and a short description about me -->
 <main class="row">
