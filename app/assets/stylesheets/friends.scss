@@ -1,0 +1,159 @@
+#friends {
+  .everything-except-navbar {
+    width: 876px;
+  }
+
+  .cover-photo-container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 263px;
+    width: 846px;
+
+    img {
+      min-width: 100%;
+      height: 100%;
+    }
+  }
+
+  .profile-photo {
+    border: 1px solid black;
+    height: 137px;
+    position: absolute;
+    bottom: -22px;
+    left: 30px;
+    overflow: hidden;
+    width: 137px;
+
+    img {
+      width: 137px;
+    }
+  }
+
+  .user-navigation {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 43px;
+
+    .btn-group {
+      float:left;
+      height: 43px;
+      margin-left: 165px;
+
+      .btn {
+        border: 0 solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-radius: 0;
+        color: black;
+        height:43px;
+        padding: 12px 12px;
+        vertical-align: middle;
+
+        .user-nav-numbers {
+          color: #999;
+        }
+      }
+
+      #current {
+        background-color: #ddd;
+      }
+    }
+
+    .edit-profile {
+      height: 43px;
+
+      a {
+        float: right;
+        padding: 12px;
+        text-decoration: underline;
+        font-size: 13px;
+      }
+    }
+  }
+
+  main {
+    margin-top: 10px;
+
+    header {
+      background-color: #ddd;
+      border: 1px solid black;
+      height: 43px;
+      text-align: center;
+
+      h1 {
+        font-size: 28px;
+        line-height: 42px;
+        margin: 0;
+      }
+    }
+  }
+
+  .content-container {
+    border: 1px solid black;
+    border-top: 0;
+    padding-top: 20px;
+
+    .left {
+      padding-left: 30px;
+    }
+
+    .right {
+      padding-right: 30 px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    section {
+      border: 1px solid black;
+      margin-bottom: 20px;
+      padding: 10px;
+
+      a {
+        text-decoration: underline;
+      }
+
+      img {
+        float: left;
+        border: 1px solid black;
+        width: 60px;
+      }
+
+      .friend-details-container {
+        float: left;
+        padding: 12px;
+
+        p{
+          color: #999;
+          margin: 0;
+        }
+      }
+
+      button {
+        border: 1px solid black;
+        border-radius: 0;
+        float: right;
+        margin: 15px 0;
+      }
+    }
+  }
+
+  .table>tbody>tr>th {
+      padding: 8px 0;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 0 solid #ddd;
+      width: 110px;
+  }
+
+  .table>tbody>tr>td {
+      padding: 8px 0;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 0 solid #ddd;
+  }
+}

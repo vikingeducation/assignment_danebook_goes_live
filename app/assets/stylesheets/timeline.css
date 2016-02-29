@@ -1,0 +1,197 @@
+#timeline .timeline {
+  width: 876px; }
+  #timeline .timeline .cover-photo-container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 263px;
+    width: 846px; }
+    #timeline .timeline .cover-photo-container img {
+      min-width: 100%;
+      height: 100%; }
+  #timeline .timeline .profile-photo {
+    border: 1px solid black;
+    height: 137px;
+    position: absolute;
+    bottom: -22px;
+    left: 30px;
+    overflow: hidden;
+    width: 137px; }
+    #timeline .timeline .profile-photo img {
+      width: 137px; }
+  #timeline .timeline .user-navigation {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 43px; }
+    #timeline .timeline .user-navigation .btn-group {
+      float: left;
+      height: 43px;
+      margin-left: 165px; }
+      #timeline .timeline .user-navigation .btn-group .btn {
+        border: 0 solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-radius: 0;
+        color: black;
+        height: 43px;
+        padding: 12px 12px;
+        vertical-align: middle; }
+        #timeline .timeline .user-navigation .btn-group .btn .user-nav-numbers {
+          color: #999; }
+      #timeline .timeline .user-navigation .btn-group #current {
+        background-color: #ddd; }
+    #timeline .timeline .user-navigation .edit-profile {
+      height: 43px; }
+      #timeline .timeline .user-navigation .edit-profile a {
+        float: right;
+        padding: 12px;
+        text-decoration: underline;
+        font-size: 13px; }
+  #timeline .timeline aside {
+    margin-top: 10px; }
+    #timeline .timeline aside .aside-containers {
+      margin-bottom: 10px; }
+    #timeline .timeline aside section {
+      border: 1px solid black; }
+    #timeline .timeline aside header {
+      background-color: #ddd;
+      border-bottom: 1px solid black;
+      padding: 3px 0;
+      text-align: center; }
+      #timeline .timeline aside header h5 {
+        color: black;
+        margin: 0; }
+  #timeline .timeline .table {
+    margin: 10px auto;
+    width: initial; }
+    #timeline .timeline .table tbody tr th {
+      padding: 4px 0;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 0 solid #ddd;
+      width: 110px; }
+    #timeline .timeline .table tbody tr td {
+      padding: 4px 0;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 0 solid #ddd; }
+  #timeline .timeline .photos-container, #timeline .timeline .friends-container {
+    padding-bottom: 10px;
+    padding-top: 10px; }
+    #timeline .timeline .photos-container .photo-container, #timeline .timeline .friends-container .photo-container {
+      margin-bottom: 5px;
+      text-align: center; }
+    #timeline .timeline .photos-container .see-more, #timeline .timeline .friends-container .see-more {
+      margin-top: 10px;
+      text-align: center; }
+    #timeline .timeline .photos-container img, #timeline .timeline .friends-container img {
+      border: 1px solid black;
+      width: 81px; }
+    #timeline .timeline .photos-container a, #timeline .timeline .friends-container a {
+      text-decoration: underline; }
+  #timeline .timeline main {
+    margin-top: 10px; }
+    #timeline .timeline main section {
+      border: 1px solid black; }
+    #timeline .timeline main header {
+      background-color: #ddd;
+      border-bottom: 1px solid black;
+      padding: 3px 0;
+      text-align: center; }
+      #timeline .timeline main header h5 {
+        color: black;
+        margin: 0; }
+  #timeline .timeline .main-containers {
+    margin-bottom: 20px; }
+    #timeline .timeline .main-containers a {
+      text-decoration: underline; }
+  #timeline .timeline form .form-input-container {
+    padding: 10px; }
+    #timeline .timeline form .form-input-container .form-control {
+      color: black;
+      font-size: 13px;
+      border: 1px solid black;
+      border-radius: 0;
+      line-height: 1.2;
+      padding: 2px 3px; }
+  #timeline .timeline footer .footer-container {
+    background-color: #ddd;
+    border-top: 1px solid black; }
+    #timeline .timeline footer .footer-container .btn-primary {
+      background-color: #2b78e4;
+      border: 2px solid black;
+      border-radius: 0;
+      float: right;
+      font-size: 13px;
+      height: 27px;
+      padding-top: 3px;
+      width: 63px; }
+  #timeline .timeline footer #new-post {
+    height: 43px;
+    padding: 8px; }
+  #timeline .timeline footer #post-with-like {
+    height: 100%;
+    padding: 4px 10px; }
+    #timeline .timeline footer #post-with-like a.comment {
+      margin-left: 8px; }
+    #timeline .timeline footer #post-with-like a.delete {
+      float: right; }
+    #timeline .timeline footer #post-with-like p {
+      margin-top: 5px; }
+  #timeline .timeline .post-body-container {
+    padding: 10px; }
+  #timeline .timeline header.older-posts {
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    text-align: left; }
+    #timeline .timeline header.older-posts img {
+      border: 1px solid black;
+      float: left;
+      height: 50px; }
+    #timeline .timeline header.older-posts .poster-name-date-container {
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px; }
+      #timeline .timeline header.older-posts .poster-name-date-container p {
+        margin: 0; }
+  #timeline .timeline .reply img {
+    border: 1px solid black;
+    float: left;
+    height: 50px; }
+  #timeline .timeline .reply .comment-details {
+    background-color: #ddd;
+    padding-top: 10px; }
+  #timeline .timeline .reply .commentor-picture {
+    background-color: #ddd;
+    min-height: 100%;
+    padding-top: 10px; }
+  #timeline .timeline .reply p.commentor-details {
+    color: #999; }
+  #timeline .timeline .bottom-of-comment p {
+    display: inline-block;
+    color: #999;
+    margin-left: 10px; }
+  #timeline .timeline .bottom-of-comment .delete {
+    float: right; }
+  #timeline .timeline #comments-form {
+    background-color: #ddd;
+    padding: 60px 10px; }
+    #timeline .timeline #comments-form .btn-primary {
+      background-color: #2b78e4;
+      border: 2px solid black;
+      border-radius: 0;
+      float: right;
+      font-size: 13px;
+      height: 27px;
+      margin-top: 10px;
+      padding-top: 3px;
+      width: 88px; }
+    #timeline .timeline #comments-form .btn-link {
+      float: left;
+      margin-top: 10px;
+      text-decoration: underline; }
+
+/*# sourceMappingURL=timeline.css.map */

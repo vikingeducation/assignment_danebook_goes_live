@@ -1,0 +1,105 @@
+#photos .photos {
+  width: 876px; }
+#photos .cover-photo-container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 263px;
+  width: 846px; }
+  #photos .cover-photo-container img {
+    min-width: 100%;
+    height: 100%; }
+#photos .profile-photo {
+  border: 1px solid black;
+  height: 137px;
+  position: absolute;
+  bottom: -22px;
+  left: 30px;
+  overflow: hidden;
+  width: 137px; }
+  #photos .profile-photo img {
+    width: 137px; }
+#photos .user-navigation {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 43px; }
+  #photos .user-navigation .btn-group {
+    float: left;
+    height: 43px;
+    margin-left: 165px; }
+    #photos .user-navigation .btn-group .btn {
+      border: 0 solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 0;
+      color: black;
+      height: 43px;
+      padding: 12px 12px;
+      vertical-align: middle; }
+      #photos .user-navigation .btn-group .btn .user-nav-numbers {
+        color: #999; }
+    #photos .user-navigation .btn-group #current {
+      background-color: #ddd; }
+  #photos .user-navigation .edit-profile {
+    height: 43px; }
+    #photos .user-navigation .edit-profile a {
+      float: right;
+      padding: 12px;
+      text-decoration: underline;
+      font-size: 13px; }
+#photos main {
+  margin-top: 10px; }
+  #photos main header {
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 43px;
+    text-align: center; }
+    #photos main header h1 {
+      float: left;
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0;
+      margin-left: calc(50% - 39px); }
+    #photos main header a.btn.btn-primary.btn-sm {
+      border: 1px solid black;
+      border-radius: 0;
+      float: right;
+      margin: 6px; }
+#photos .content-container {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 20px; }
+  #photos .content-container .left {
+    padding-left: 45px; }
+  #photos .content-container .right {
+    padding-right: 45px; }
+  #photos .content-container p {
+    font-size: 13px; }
+#photos .photos-container {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+  #photos .photos-container .photo-container {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center; }
+  #photos .photos-container img {
+    border: 1px solid black;
+    width: 100%; }
+  #photos .photos-container .imgDescription {
+    padding-top: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    background: black;
+    color: white;
+    height: 30px;
+    width: calc(100% - 30px);
+    visibility: hidden;
+    -webkit-transition: visibility opacity 0.2s; }
+  #photos .photos-container .photo-container:hover .imgDescription {
+    visibility: visible;
+    opacity: 0.4; }
+
+/*# sourceMappingURL=photos.css.map */

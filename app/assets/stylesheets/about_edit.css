@@ -1,0 +1,98 @@
+#about-edit .everything-except-navbar {
+  width: 876px; }
+#about-edit .cover-photo-container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 263px;
+  width: 846px; }
+  #about-edit .cover-photo-container img {
+    min-width: 100%;
+    height: 100%; }
+#about-edit .profile-photo {
+  border: 1px solid black;
+  height: 137px;
+  position: absolute;
+  bottom: -22px;
+  left: 30px;
+  overflow: hidden;
+  width: 137px; }
+  #about-edit .profile-photo img {
+    width: 137px; }
+#about-edit .user-navigation {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 43px; }
+  #about-edit .user-navigation .btn-group {
+    float: left;
+    height: 43px;
+    margin-left: 165px; }
+    #about-edit .user-navigation .btn-group .btn {
+      border: 0 solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 0;
+      color: black;
+      height: 43px;
+      padding: 12px 12px;
+      vertical-align: middle; }
+      #about-edit .user-navigation .btn-group .btn .user-nav-numbers {
+        color: #999; }
+    #about-edit .user-navigation .btn-group #current {
+      background-color: #ddd; }
+#about-edit main {
+  margin-top: 10px; }
+  #about-edit main header {
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 43px;
+    text-align: center; }
+    #about-edit main header h1 {
+      dispay: inline-block;
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0; }
+#about-edit .content-container {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 20px; }
+  #about-edit .content-container .left {
+    padding-left: 45px; }
+  #about-edit .content-container .right {
+    padding-right: 45px; }
+  #about-edit .content-container p {
+    font-size: 13px; }
+#about-edit .table > tbody > tr > th {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd;
+  width: 110px; }
+#about-edit .table > tbody > tr > td {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd; }
+#about-edit .form-horizontal .form-group {
+  margin: 0; }
+  #about-edit .form-horizontal .form-group .form-control {
+    color: black;
+    font-size: 13px;
+    border: 1px solid #999;
+    border-radius: 0;
+    line-height: 1.2;
+    padding: 2px 3px; }
+  #about-edit .form-horizontal .form-group .form-control-left {
+    height: 20px; }
+#about-edit .btn-primary {
+  background-color: #2b78e4;
+  border: 2px solid black;
+  border-radius: 0;
+  font-size: 24px;
+  height: 71px;
+  margin: 20px calc(50% - (435px/2)) 90px;
+  width: 435px; }
+
+/*# sourceMappingURL=about_edit.css.map */

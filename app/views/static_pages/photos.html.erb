@@ -1,0 +1,183 @@
+<div id="photos">
+  <div class="container photos">
+
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="cover-photo-container">
+          <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg">
+        </div>
+
+        <div class="profile-photo">
+          <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class= "user-navigation">
+
+          <div class="btn-group" role="group" aria-label="user-nav-buttons">
+            <%= link_to "Timeline", timeline_path, :class => "btn", :role => "button" %>
+            <%= link_to "About", about_path, :class => "btn", :role => "button" %>
+            <%= link_to photos_path, :class => "btn", :role => "button", :id => "current" do %>
+              Photos <span class='user-nav-numbers'>(123)</span>
+            <% end %>
+            <%= link_to friends_path, :class => "btn", :role => "button" do %>
+              Friends <span class='user-nav-numbers'>(123)</span>
+            <% end %>
+          </div>
+
+          <div class= "edit-profile">
+            <%= link_to "Edit Profile", about_edit_path %>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <main>
+
+      <div class = "row">
+        <div class = "col-xs-12">
+          <header>
+            <h1>Photos</h1>
+            <a href="#" class="btn btn-primary btn-sm" role="button">Add Photo!</a>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-container">
+            <div class="row">
+
+              <div class="col-xs-12 photos-container">
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+                <div class="col-xs-3 photo-container">
+                  <a href="#">
+                    <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                    <p class="imgDescription">Updated January 1, 2015</p>
+                  </a>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+</div>

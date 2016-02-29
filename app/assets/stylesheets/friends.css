@@ -1,0 +1,106 @@
+#friends .everything-except-navbar {
+  width: 876px; }
+#friends .cover-photo-container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 263px;
+  width: 846px; }
+  #friends .cover-photo-container img {
+    min-width: 100%;
+    height: 100%; }
+#friends .profile-photo {
+  border: 1px solid black;
+  height: 137px;
+  position: absolute;
+  bottom: -22px;
+  left: 30px;
+  overflow: hidden;
+  width: 137px; }
+  #friends .profile-photo img {
+    width: 137px; }
+#friends .user-navigation {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 43px; }
+  #friends .user-navigation .btn-group {
+    float: left;
+    height: 43px;
+    margin-left: 165px; }
+    #friends .user-navigation .btn-group .btn {
+      border: 0 solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 0;
+      color: black;
+      height: 43px;
+      padding: 12px 12px;
+      vertical-align: middle; }
+      #friends .user-navigation .btn-group .btn .user-nav-numbers {
+        color: #999; }
+    #friends .user-navigation .btn-group #current {
+      background-color: #ddd; }
+  #friends .user-navigation .edit-profile {
+    height: 43px; }
+    #friends .user-navigation .edit-profile a {
+      float: right;
+      padding: 12px;
+      text-decoration: underline;
+      font-size: 13px; }
+#friends main {
+  margin-top: 10px; }
+  #friends main header {
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 43px;
+    text-align: center; }
+    #friends main header h1 {
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0; }
+#friends .content-container {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 20px; }
+  #friends .content-container .left {
+    padding-left: 30px; }
+  #friends .content-container .right {
+    padding-right: 30 px; }
+  #friends .content-container p {
+    font-size: 13px; }
+  #friends .content-container section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px; }
+    #friends .content-container section a {
+      text-decoration: underline; }
+    #friends .content-container section img {
+      float: left;
+      border: 1px solid black;
+      width: 60px; }
+    #friends .content-container section .friend-details-container {
+      float: left;
+      padding: 12px; }
+      #friends .content-container section .friend-details-container p {
+        color: #999;
+        margin: 0; }
+    #friends .content-container section button {
+      border: 1px solid black;
+      border-radius: 0;
+      float: right;
+      margin: 15px 0; }
+#friends .table > tbody > tr > th {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd;
+  width: 110px; }
+#friends .table > tbody > tr > td {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd; }
+
+/*# sourceMappingURL=friends.css.map */

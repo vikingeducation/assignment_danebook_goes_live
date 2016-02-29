@@ -1,0 +1,150 @@
+<div id="friends">
+  <div class="container everything-except-navbar">
+
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="cover-photo-container">
+          <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg">
+        </div>
+
+        <div class="profile-photo">
+          <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class= "user-navigation">
+
+          <div class="btn-group" role="group" aria-label="user-nav-buttons">
+            <%= link_to "Timeline", timeline_path, :class => "btn", :role => "button" %>
+            <%= link_to "About", about_path, :class => "btn", :role => "button" %>
+            <%= link_to photos_path, :class => "btn", :role => "button" do %>
+              Photos <span class='user-nav-numbers'>(123)</span>
+            <% end %>
+            <%= link_to friends_path, :class => "btn", :role => "button", :id => "current" do %>
+              Friends <span class='user-nav-numbers'>(123)</span>
+            <% end %>
+          </div>
+
+          <div class= "edit-profile">
+            <%= link_to "Edit Profile", about_edit_path %>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <main>
+
+      <div class = "row">
+        <div class = "col-xs-12">
+          <header>
+            <h1>Friends</h1>
+          </header>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-container">
+            <div class="row">
+
+              <div class="col-xs-6 left">
+
+                <section class="friend">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                      <div class="friend-details-container">
+                        <a href="#">Harry Potter</a>
+                        <p>Posted on Thursday 06/01/2014</p>
+                      </div>
+                      <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="friend">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                      <div class="friend-details-container">
+                        <a href="#">Harry Potter</a>
+                        <p>Posted on Thursday 06/01/2014</p>
+                      </div>
+                      <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="friend">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                      <div class="friend-details-container">
+                        <a href="#">Harry Potter</a>
+                        <p>Posted on Thursday 06/01/2014</p>
+                      </div>
+                      <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                    </div>
+                  </div>
+                </section>
+
+              </div>
+
+              <div class="col-xs-6 right">
+
+                <section class="friend">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                      <div class="friend-details-container">
+                        <a href="#">Harry Potter</a>
+                        <p>Posted on Thursday 06/01/2014</p>
+                      </div>
+                      <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="friend">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                      <div class="friend-details-container">
+                        <a href="#">Harry Potter</a>
+                        <p>Posted on Thursday 06/01/2014</p>
+                      </div>
+                      <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="friend">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                      <div class="friend-details-container">
+                        <a href="#">Harry Potter</a>
+                        <p>Posted on Thursday 06/01/2014</p>
+                      </div>
+                      <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                    </div>
+                  </div>
+                </section>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+  </div> 
+</div>
