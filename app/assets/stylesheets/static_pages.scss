@@ -1,0 +1,54 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar {
+  background-color: #2b78e4;
+  border-bottom: 1px solid black;
+  height: 45px; }
+  .navbar .container-fluid {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 45px;
+    max-width: 846px;
+    min-width: 500px; }
+    .navbar .container-fluid .navbar-element {
+      float: left;
+      height: 45px;
+      padding: 7px 0;
+      vertical-align: middle; }
+    .navbar .container-fluid .navbar-header {
+      width: 30px;
+      text-align: center; }
+      .navbar .container-fluid .navbar-header a.navbar-brand {
+        margin: 0;
+        padding: 0;
+        height: 30px; }
+        .navbar .container-fluid .navbar-header a.navbar-brand img {
+          height: 30px;
+          width: 30px; }
+    .navbar .container-fluid form {
+      float: left;
+      width: calc(70% - 100px); }
+    .navbar .container-fluid .business-name-container {
+      margin-left: 15px;
+      margin-right: 20px;
+      padding: 8px 8px; }
+      .navbar .container-fluid .business-name-container h1 {
+        color: white;
+        float: left;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0px; }
+    .navbar .container-fluid .username-container {
+      margin-left: 20px;
+      float: right;
+      padding: 13px 0; }
+      .navbar .container-fluid .username-container h3 {
+        color: white;
+        font-size: 16px;
+        margin: 0px; }
+

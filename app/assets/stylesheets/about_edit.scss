@@ -1,0 +1,144 @@
+  #about-edit {
+
+  .everything-except-navbar {
+    width: 876px;
+  }
+
+  .cover-photo-container {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 263px;
+    width: 846px;
+
+    img {
+      min-width: 100%;
+      height: 100%;
+    }
+  }
+
+  .profile-photo {
+    border: 1px solid black;
+    height: 137px;
+    position: absolute;
+    bottom: -22px;
+    left: 30px;
+    overflow: hidden;
+    width: 137px;
+
+    img {
+      width: 137px;
+    }
+  }
+
+  .user-navigation {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 43px;
+
+    .btn-group {
+      float:left;
+      height: 43px;
+      margin-left: 165px;
+
+      .btn {
+        border: 0 solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-radius: 0;
+        color: black;
+        height:43px;
+        padding: 12px 12px;
+        vertical-align: middle;
+
+        .user-nav-numbers {
+          color: #999;
+        }
+      }
+
+      #current {
+        background-color: #ddd;
+      }
+    }
+  }
+
+  main {
+    margin-top: 10px;
+
+    header {
+      background-color: #ddd;
+      border: 1px solid black;
+      height: 43px;
+      text-align: center;
+
+      h1 {
+        dispay: inline-block;
+        font-size: 28px;
+        line-height: 42px;
+        margin: 0;
+      }
+    }
+  }
+
+  .content-container {
+    border: 1px solid black;
+    border-top: 0;
+    padding-top: 20px;
+
+    .left {
+      padding-left: 45px;
+    }
+
+    .right {
+      padding-right: 45px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .table>tbody>tr>th {
+      padding: 8px 0;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 0 solid #ddd;
+      width: 110px;
+  }
+
+  .table>tbody>tr>td {
+      padding: 8px 0;
+      line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 0 solid #ddd;
+  }
+
+  .form-horizontal .form-group {
+    margin:0;
+
+    .form-control {
+      color: black;
+      font-size: 13px;
+      border: 1px solid #999;
+      border-radius: 0;
+      line-height: 1.2;
+      padding: 2px 3px;
+    }
+
+    .form-control-left{
+      height: 20px;
+    }
+  }
+
+  .btn-primary {
+    background-color: #2b78e4;
+    border: 2px solid black;
+    border-radius: 0;
+    font-size: 24px;
+    height: 71px;
+    margin: 20px calc(50% - (435px/2)) 90px;
+    width: 435px;
+  }
+}

@@ -1,0 +1,319 @@
+#timeline {
+  .timeline {
+    width: 876px;
+
+    .cover-photo-container {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      height: 263px;
+      width: 846px;
+
+      img {
+        min-width: 100%;
+        height: 100%;
+      }
+    }
+
+    .profile-photo {
+      border: 1px solid black;
+      height: 137px;
+      position: absolute;
+      bottom: -22px;
+      left: 30px;
+      overflow: hidden;
+      width: 137px;
+
+      img {
+        width: 137px;
+      }
+    }
+
+    .user-navigation {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      height: 43px;
+
+      .btn-group {
+        float:left;
+        height: 43px;
+        margin-left: 165px;
+
+        .btn {
+          border: 0 solid black;
+          border-left: 1px solid black;
+          border-right: 1px solid black;
+          border-bottom: 1px solid black;
+          border-radius: 0;
+          color: black;
+          height:43px;
+          padding: 12px 12px;
+          vertical-align: middle;
+
+          .user-nav-numbers {
+            color: #999;
+          }
+        }
+
+        #current {
+          background-color: #ddd;
+        }
+      }
+
+      .edit-profile {
+        height: 43px;
+
+        a {
+          float: right;
+          padding: 12px;
+          text-decoration: underline;
+          font-size: 13px;
+        }
+      }
+    }
+
+    aside {
+      margin-top: 10px;
+
+      .aside-containers {
+        margin-bottom: 10px;
+      }
+
+      section {
+        border: 1px solid black;
+      }
+
+      header {
+        background-color: #ddd;
+        border-bottom: 1px solid black;
+        padding: 3px 0;
+        text-align: center;
+
+        h5 {
+          color: black;
+          margin: 0;
+        }
+      }
+    }
+
+    .table {
+      margin: 10px auto;
+      width: initial;
+
+      tbody {
+        tr {
+          th {
+            padding: 4px 0;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border-top: 0 solid #ddd;
+            width: 110px;
+          }
+          td {
+            padding: 4px 0;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border-top: 0 solid #ddd;
+          }
+        }
+      }
+    }
+
+    .photos-container, .friends-container {
+      padding-bottom: 10px;
+      padding-top: 10px;
+
+      .photo-container {
+        margin-bottom: 5px;
+        text-align: center;
+      }
+
+      .see-more {
+        margin-top: 10px;
+        text-align: center;
+      }
+
+      img {
+        border: 1px solid black;
+        width: 81px;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    // Right Side Post Section Down
+
+    main {
+      margin-top: 10px;
+
+      section {
+        border: 1px solid black;
+      }
+
+      header {
+        background-color: #ddd;
+        border-bottom: 1px solid black;
+        padding: 3px 0;
+        text-align: center;
+
+        h5 {
+          color: black;
+          margin: 0;
+        }
+      }
+    }
+
+    .main-containers {
+      margin-bottom: 20px;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    form {
+      .form-input-container {
+        padding: 10px;
+
+        .form-control {
+          color: black;
+          font-size: 13px;
+          border: 1px solid black;
+          border-radius: 0;
+          line-height: 1.2;
+          padding: 2px 3px;
+        }
+      }
+    }
+
+    footer {
+
+      .footer-container {
+        background-color: #ddd;
+        border-top: 1px solid black;
+
+        .btn-primary {
+          background-color: #2b78e4;
+          border: 2px solid black;
+          border-radius: 0;
+          float: right;
+          font-size: 13px;
+          height: 27px;
+          padding-top: 3px;
+          width: 63px;
+        }
+      }
+
+      #new-post {
+        height: 43px;
+        padding: 8px;
+      }
+
+      #post-with-like {
+        height: 100%;
+        padding: 4px 10px;
+
+        a.comment {
+          margin-left: 8px;
+        }
+
+        a.delete {
+          float: right;
+        }
+
+        p {
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .post-body-container {
+      padding: 10px;
+    }
+
+    header.older-posts {
+      background-color: white;
+      border: 0;
+      padding: 10px;
+      text-align: left;
+
+      img {
+        border: 1px solid black;
+        float: left;
+        height: 50px;
+      }
+
+      .poster-name-date-container {
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+
+    .reply {
+
+      img {
+        border: 1px solid black;
+        float: left;
+        height: 50px;
+      }
+
+      .comment-details {
+        background-color: #ddd;
+        padding-top: 10px;
+      }
+
+      .commentor-picture {
+        background-color: #ddd;
+        min-height: 100%;
+        padding-top: 10px;
+      }
+
+      p.commentor-details {
+        color: #999;
+      }
+    }
+
+    .bottom-of-comment {
+      p {
+        display: inline-block;
+        color: #999;
+        margin-left: 10px;
+      }
+
+      .delete {
+        float: right;
+      }
+    }
+
+    #comments-form {
+      background-color: #ddd;
+      padding: 60px 10px;
+
+      .btn-primary {
+        background-color: #2b78e4;
+        border: 2px solid black;
+        border-radius: 0;
+        float: right;
+        font-size: 13px;
+        height: 27px;
+        margin-top: 10px;
+        padding-top: 3px;
+        width: 88px;
+      }
+
+      .btn-link {
+        float: left;
+        margin-top: 10px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
