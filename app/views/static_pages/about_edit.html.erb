@@ -1,0 +1,73 @@
+<%= stylesheet_link_tag  'style', media: 'all', 'data-turbolinks-track' => true %>
+<%= render 'shared/navbar' %>
+
+<header class="jumbotron cover-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="img/harry_potter_small.jpg" alt="User profile picture" class="profile-pic img-rounded"/>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-3">
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="timeline.html">Timeline</a></li>
+        <li class="active"><a href="about.html">About</a></li>
+        <li><a href="friends.html">Friends (137)</a></li>
+        <li><a href="photos.html">Photos (89)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row main-content-title">
+    <div class="col-xs-12">
+      <h2>Edit Profile</h2>
+    </div>
+  </div>
+  <section class="row main-content">
+    <div class="col-xs-4 col-xs-offset-2">
+      <h3>Basic Information</h3>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="form-group">
+            <label for="userBirthday">Birthday</label>
+            <input id="userBirthday" label="Birthday" class="form-control" type="text" value="July 2, 1986">
+            <label for="userSchool">College</label>
+            <input id="userSchool" class="form-control" type="text" value="New York University">
+            <label for="userHometown">Hometown</label>
+            <input id="userHometown" class="form-control" type="text" value="Baton Rouge, Louisiana">
+            <label for="userCurrent">Currently Lives</label>
+            <input id="userCurrent" class="form-control" type="text" value="Busan, South Korea">
+          </div>
+        </div>
+      </div>
+      <h3>Contact Information</h3>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="form-group">
+            <label for="userEmail">Email</label>
+            <input id="userEmail" class="form-control" type="text" value="stephen@example.com">
+            <label for="userPhone">Phone</label>
+            <input id="userPhone" class="form-control" type="text" value="010-4983-3223">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h3>Words to live by</h3>
+      <div class="form-group">
+        <textarea class="form-control" rows="4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</textarea>
+      </div>
+      <h3>About Me</h3>
+      <div class="form-group">
+        <textarea class="form-control" rows="8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+      </div>
+    </div>
+    <div class="col-xs-4 col-xs-offset-4">
+      <button type="button" class="btn btn-success btn-block">Save Changes</button>
+    </div>
+  </section>
+</main>
