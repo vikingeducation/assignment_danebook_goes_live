@@ -8,4 +8,10 @@ class StaticPagesController < ApplicationController
 
   def friends
   end
+
+  def about
+  end
+
+  def photos
+  end
 end
