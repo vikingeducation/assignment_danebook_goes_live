@@ -1,0 +1,67 @@
+<%= stylesheet_link_tag  'style', media: 'all', 'data-turbolinks-track' => true %>
+<%= render 'shared/navbar' %>
+
+<header class="jumbotron cover-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="img/harry_potter_small.jpg" alt="User profile picture" class="profile-pic img-rounded"/>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-3">
+      <ul class="nav nav-pills nav-justified">
+        <li><%= link_to "Timeline", timeline_path %></li>
+        <li class="active"><%= link_to "About", about_path %></li>
+        <li><%= link_to "Friends (137)", friends_path %></li>
+        <li><%= link_to "Photos (89)", photos_path %></li>
+        <li><strong><%= link_to "About Edit", about_edit_path %></strong></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row main-content-title">
+    <div class="col-xs-12">
+      <h2>About</h2>
+    </div>
+  </div>
+  <section class="row main-content">
+    <div class="col-xs-4">
+      <h3>Basic Information</h3>
+      <div class="row">
+        <div class="col-xs-6">
+          <p><strong>Birthday:</strong></p>
+          <p><strong>University:</strong></p>
+          <p><strong>Hometown:</strong></p>
+          <p><strong>Currently Lives:</strong></p>
+        </div>
+        <div class="col-xs-6">
+          <p>July 2, 1986</p>
+          <p>New York University</p>
+          <p>Baton Rouge, Louisiana</p>
+          <p>Busan, South Korea</p>
+        </div>
+      </div>
+      <h3>Contact Information</h3>
+      <div class="row">
+        <div class="col-xs-6">
+          <p><strong>Email:</strong></p>
+          <p><strong>Telephone:</strong></p>
+        </div>
+        <div class="col-xs-6">
+          <p>stephen@example.com</p>
+          <p>010-5555-1234</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-7 col-xs-offset-1">
+      <h3>Words to live by</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h3>About Me</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+</main>
