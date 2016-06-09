@@ -1,0 +1,38 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$control-height: 50px;
+$element-margin: 10px 0;
+
+.navbar {
+  min-height: $control-height;
+}
+
+body {
+  padding-top: 85px;
+  padding-bottom: 20px;
+}
+
+.navbar-inverse {
+  background-color: #2B78E4;
+  .navbar-brand {
+    color: #fff;
+    height: $control-height;
+    font-size: 32px;
+    margin: $element-margin;
+  }
+}
+
+.spacer {
+  margin-top: 40px;
+}
+
+li {
+  font-size: 18px;
+  margin: $element-margin;
+}
+
+input {
+  margin: $element-margin;
+}
