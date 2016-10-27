@@ -5,8 +5,32 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
+
+
 <body>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="brand pull-left" href="about.html">
+            <img style="height:40px" class="img-circle" src="danish_flag.gif">
+        </a>
+    </div>
+    <p class="pull-left">Danebook</p>
+
+        <div class="navbar-center col-sm-offset-3">
+            <form class="navbar-form" role="search">
+                <div class="input-group col-sm-8">
+                    <!--SEARCH BAR-->
+                    <input type="search" class="form-control" placeholder="Search" name="search-field">
+                </div>
+            </form>
+        </div>
+  </div> <!--/.container-->
+</nav>
 
 <%= yield %>
 
