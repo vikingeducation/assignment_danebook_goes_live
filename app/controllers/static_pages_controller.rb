@@ -13,4 +13,8 @@ class StaticPagesController < ApplicationController
 
 	end
 
+	def photos
+
+	end
+
 end
