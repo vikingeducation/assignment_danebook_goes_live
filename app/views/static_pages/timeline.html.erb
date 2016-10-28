@@ -1,17 +1,7 @@
 
 <div class="container">
 
-      <div class="row">
-        <div class="col-xs-12 remove-padding plain-border">
-            <!--background cover photo-->
-            <img class="cover-photo" src="hogwarts_small.jpg">
-        </div>
-        <div class="row">
-          <div class="col-xs-1">
-            <img class="personal-photo" src="harry_potter_small.jpg">
-          </div>
-        </div>
-      </div>
+<%= render partial: 'cover_photo' %>
 
 
   <!--row for home about photos friends links-->
@@ -60,72 +50,12 @@
                     </div>
 
 <!--photos aside-->
-            <div class="row">
 
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
+            <% 3.times do %>
 
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
+                <%= render partial: 'timeline_photos' %>
 
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-            </div> <!--/.row photo ROW SECOND-->
-
-            <div class="row">
-
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-            </div> <!--/.row photo ROW -->
-
-            <!--PHOTO ROW THIRD-->
-            <div class="row">
-
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container" src="icon_photo_small.png"></a>
-                            <!--/.image-->
-                    </div><!--photo box-->
-
-            </div> <!--/.row photo ROW THIRD-->
+            <% end %>
 
             <!--SEE MORE PHOTOS LINK-->
             <div class="row">
@@ -150,41 +80,11 @@
 
             <div class="row">
 
-                    <div class="col-md-4 col-xs-6">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container aside-photo" src="user_silhouette_generic.gif"></a>
-                            <!--/.image-->
-                            <!--friend image caption-->
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <a href="#"><p class="text-center">Ronald Weasley<p></a>
-                                </div>
-                            </div>
-                    </div><!--photo box-->
+                <% 3.times do %>
 
-                    <div class="col-md-4 col-xs-6">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container aside-photo" src="user_silhouette_generic.gif"></a>
-                            <!--/.image-->
-                            <!--friend image caption-->
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <a href="#"><p class="text-center">Ronald Weasley<p></a>
-                                </div>
-                            </div>
-                    </div><!--photo box-->
+                <%= render partial: 'timeline_friend_photo' %>
 
-                    <div class="col-md-4 col-xs-6">
-                              <!--friend  box-->
-                                <a href="#"><img class="h-center aside-photo-container aside-photo" src="user_silhouette_generic.gif"></a>
-                            <!--/.image-->
-                            <!--friend image caption-->
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <a href="#"><p class="text-center">Ronald Weasley<p></a>
-                                </div>
-                            </div>
-                    </div><!--photo box-->
+                <% end %>
 
             </div> <!--/.row photo ROW -->
 
