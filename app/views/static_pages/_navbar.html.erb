@@ -5,7 +5,15 @@
             <img style="height:40px" class="img-circle" src="danish_flag.gif">
         </a>
     </div>
-    <p class="pull-left">Danebook</p>
+    <p class="pull-left">
+
+        <% if @name.nil? %>
+        Danebook
+        <% else %>
+        <%= @name %>
+        <% end %>
+
+    </p>
 
         <div class="navbar-center col-sm-offset-3">
             <form class="navbar-form" role="search">
