@@ -18,24 +18,22 @@
   <!-- remove btn-link to show page currently selected-->
     <div class="row profile-link-bar plain-border">
         <div class="col-xs-6 col-xs-offset-2 profile-links">
-                <a class="text-dec-none" href="timeline.html">
-                    <button class="btn btn-link btn-lg btn-radius-0" type="button">
-                        Timeline
-                    </button>
-                </a>
+            <button class="btn btn-link btn-lg btn-radius-0" type="button text-dec-none">
+              <%= link_to 'Timeline', timeline_path %>
+          </button>
                 <a class="text-dec-none" href="about.html">
                     <button class="btn btn-lg btn-radius-0" type="button">
-                        About
+                    <%= link_to 'About', about_path %>
                     </button>
                 </a>
                 <a class="text-dec-none" href="photos.html">
                   <button class="btn btn-link btn-lg btn-radius-0" type="button">
-                        Photos
+                    <%= link_to 'Photos', photos_path %>
                   </button>
                 </a>
                 <a class="text-dec-none" href="friends.html">
                   <button class="btn btn-link btn-lg btn-radius-0" type="button">
-                        Friends
+                    <%= link_to 'Friends', photos_path %>
                   </button>
                 </a>
         </div>
