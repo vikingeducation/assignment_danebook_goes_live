@@ -19,6 +19,19 @@ class StaticPagesController < ApplicationController
 	end
 
 	def photos
+
+		@name = "Joe Bernardi"
+
+	end
+
+	def about
+
+		@name = "Joe Bernardi"
+
+	end
+
+	def about_edit
+
 		@name = "Joe Bernardi"
 
 	end
