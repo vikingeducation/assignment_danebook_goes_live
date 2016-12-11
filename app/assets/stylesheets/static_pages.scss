@@ -1,0 +1,325 @@
+
+$prime-blue: #2B78E4;
+
+$secondary-blue: #9FC5F8;
+
+$dark-blue: #2d5b9b;
+
+$prime-black: #000;
+
+$prime-white: #fff;
+
+$prime-gray: #E6E6E6;
+
+$secondary-gray: #f9f9f9;
+
+
+.navbar-default.large{
+  background-color: $prime-blue;
+
+  .container{
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand{
+    font-size: 35px;
+    font-weight: 500;
+    color: $prime-white;
+  }
+
+  @media (min-width: 768px){
+    .navbar-brand{
+      font-size: 35px;
+      font-weight: 500;
+      color: $prime-white;
+      margin-top: 15px;
+    }
+  }
+
+  .navbar-brand:hover{
+    color: $prime-white;
+  }
+
+  @media (min-width: 768px){
+    button{
+      background-color: $secondary-blue;
+      color: $prime-black;
+    }
+  }
+
+  button:hover{
+    color: $prime-black;
+  }
+  .navbar-toggle{
+    border-color: $prime-black;
+    .icon-bar{
+      background-color: $prime-black;
+
+    }
+  }
+
+  .navbar-toggle:hover{
+    background-color: $prime-blue;
+    .icon-bar{
+      background-color: $prime-white;
+
+    }
+  }
+
+  .navbar-collapse{
+    background-color: $prime-blue;
+    border-color: $prime-blue;
+    box-shadow: none;
+  }
+
+  .navbar-form{
+    background-color: $prime-blue;
+    border-color: $prime-blue;
+  }
+
+  #main-navbar-collapse{
+    .navbar-form{
+      box-shadow: none;
+      p{
+        color: $prime-white;
+      }
+      @media (min-width: 768px){
+        p{
+          color: $prime-white;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        button{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+}
+
+
+.navbar-default.small{
+  background-color: $prime-blue;
+
+  .container{
+    margin-bottom: 0px;
+  }
+
+  .navbar-brand{
+    font-size: 20px;
+    font-weight: 500;
+    color: $prime-white;
+    img{
+      height: auto;
+      width: 30px;
+      display: inline;
+    }
+  }
+
+  .navbar-brand:hover{
+    color: $prime-white;
+  }
+
+
+  button:hover{
+    color: $prime-black;
+  }
+
+  .navbar-toggle{
+    border-color: $prime-black;
+    .icon-bar{
+      background-color: $prime-black;
+
+    }
+  }
+
+  .navbar-toggle:hover{
+    background-color: $prime-blue;
+    .icon-bar{
+      background-color: $prime-white;
+
+    }
+  }
+
+  .navbar-collapse{
+    background-color: $prime-blue;
+    border-color: $prime-blue;
+    box-shadow: none;
+  }
+
+  .navbar-form{
+    background-color: $prime-blue;
+    border-color: $prime-blue;
+  }
+
+  @media (min-width: 768px){
+    #search-bar{
+      width: 400px;
+    }
+  }
+
+  @media (min-width: 992px){
+    #search-bar{
+      width: 600px;
+    }
+  }
+
+}
+
+
+
+.description-list{
+  li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.block-margin-lg{
+  margin-top: 80px;
+}
+
+.block-margin-sm{
+  margin-top: 15px;
+}
+
+.lastname-margin{
+  margin-top: 25px;
+}
+
+.btn-signup{
+  height: 50px;
+}
+
+@media (min-width: 768px){
+  .block-margin-sm{
+    margin-top: 15px;
+  }
+
+  .block-margin-lg{
+    margin-top: 150px;
+  }
+
+  .block-margin-md{
+    margin-top: 85px;
+  }
+
+  .block-margin-xs{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .block-margin-sm{
+    margin-top: 15px;
+  }
+  .btn-signup{
+    height: inherit;
+  }
+}
+
+#user-profile-head{
+  margin-bottom: 30px;
+  .profile-banner{
+    width: 100%;
+    margin: 0;
+  }
+
+  @media (min-width: 1200px){
+    .profile-banner{
+    }
+  }
+
+  .profile-photo-element{
+    border: 2px solid $prime-white;
+    position: absolute;
+    bottom: -25px;
+    left: 45px;
+  }
+
+  @media (max-width: 768px){
+    .profile-photo-element{
+      left: 25px;
+      max-width: 138px;
+    }
+  }
+
+
+
+  .edit-profile-element{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+  }
+
+  .profile-nav{
+    background-color: $prime-gray;
+  }
+
+
+
+}
+
+#about-container{
+  border: 2px solid $prime-gray;
+
+  .about-header{
+    background-color: $prime-gray;
+  }
+
+  .profile-edit-btn{
+    margin-top: 20px;
+  }
+
+  .no-border{
+    border: none;
+  }
+
+  h3{
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
+
+  #about-content{
+    background-color: $secondary-gray;
+  }
+
+  .save-button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+#info-nav{
+  .title-bar{
+    height: 30px;
+    background-color: $prime-gray;
+
+  }
+
+  .about-description{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+
+}
+
+.gray-border{
+  border: 2px solid $prime-gray;
+}
+
+#user-posts{
+  .footer-bar{
+    background-color: $prime-gray;
+
+    a{
+      padding-top: 10px;
+      padding-bottom: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+}
