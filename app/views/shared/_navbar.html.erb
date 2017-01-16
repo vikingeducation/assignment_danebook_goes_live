@@ -2,7 +2,7 @@
 <% if @logged_in %>
 	<nav class="navbar navbar-inverse clearfix container-fluid">
 		<div class="navbar-wrapper">
-			<a href="/"><img src="assets/danish_flag.gif" alt="Danish Flag Logo" class="img-circle"></a>
+			<a href="/"><%= image_tag "danish_flag.gif", class:"img-circle", alt:"Danish Flag Logo" %></a>
 			<label class="danebook-label">Danebook</label>
 			<form>
 				<input type="text" class="form-control" id="inputFirstName" placeholder="Search for Users">
