@@ -123,7 +123,7 @@ b{
 main{
 	margin-bottom: 30px;
 	.cover-container{
-		background-image: url(asset-path('hogwarts_small.jpg', image));
+		background-image: url(asset_path('hogwarts_small.jpg', image));
 		height: 400px;
 		.profile-picture{
 			width: 180px;
@@ -135,7 +135,7 @@ main{
 				height: 220px;
 				top: 210px;
 			}
-			background-image: url(asset-path('harry_potter_small.png', image));
+			background-image: url(asset_path('harry_potter_small.png', image));
 			position: relative;
 			z-index: 99999;
 		}
