@@ -1,0 +1,157 @@
+h2 {
+  text-align: center; }
+
+/*****SIZING/POSITIONING*****/
+.friend-photo, .aside-photo-container {
+  height: 75px;
+  width: 75px; }
+
+.tbmargins {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.form-control {
+  width: 90%;
+  margin: auto; }
+
+.h-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.translateY-50 {
+  transform: translate(0, 50%); }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.remove-margin {
+  margin-left: 0;
+  margin-right: 0; }
+
+.remove-padding {
+  padding: 0; }
+
+/*****BUTTONS AND LINKS*****/
+.btn-radius-0 {
+  border-radius: 0; }
+
+.btn-grayed-out, .profile-links > .text-dec-none > button:hover, button:focus {
+  background-color: #CCC;
+  color: #EEEEEE; }
+
+.profile-links > .text-dec-none > button:hover, button:focus {
+  text-decoration: none;
+  color: #FFF;
+  outline: none; }
+
+.btn-grayed-out > .button > a:hover, .profile-links > .text-dec-none > button:hover > .button > a:hover, button:focus > .button > a:hover {
+  text-decoration: none; }
+
+.profile-links {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center; }
+
+.header-button {
+  margin-top: 14px; }
+
+.text-dec-none:hover {
+  text-decoration: none; }
+
+/*****END BUTTONS AND LINKS *****/
+/*****FRIENDS PAGE****/
+.friend-container {
+  position: relative;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/****TIMELINE*****/
+.generic-box {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+/*****PHOTOS PAGE*****/
+.photo-container {
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0; }
+
+.aside-photo-container {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.caption {
+  background-color: #EEEEEE;
+  height: 40px;
+  opacity: 0;
+  padding-top: 6px;
+  text-align: center;
+  transform: translateY(-40px);
+  font-size: 18px;
+  color: #403075; }
+
+.photo-container:hover > .caption {
+  opacity: 0.8; }
+
+/**** FORMS ****/
+.added-form-margin > .col-xs-6 > div {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.extra-margin {
+  margin-top: 40px; }
+
+.added-form-margin p {
+  margin-top: 10px; }
+
+.top-20-margin {
+  margin-top: 20px; }
+
+.text-align-right {
+  text-align: right; }
+
+p.pull-left {
+  margin-top: 10px;
+  margin-left: 8px;
+  color: #FFF;
+  font-size: 22px; }
+
+.navbar-default {
+  background-color: #2B78E4; }
+
+.navbar-brand {
+  margin-top: 0px; }
+
+a:hover.text-dec {
+  text-decoration: underline; }
+
+img.personal-photo {
+  position: absolute;
+  transform: translate(20px, -190px);
+  width: 150px; }
+
+img.cover-photo {
+  width: 100%; }
+
+.hide {
+  display: none; }
+
+.default-box-header {
+  background-color: #EEEEEE;
+  min-height: 30px; }
+
+.plain-border, .friend-container, .generic-box {
+  border: 1px solid black; }
+
+.post-caption {
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.9; }
+
+/*# sourceMappingURL=styles.css.map */

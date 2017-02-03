@@ -1,0 +1,27 @@
+
+<div class="container plain-border">
+
+<%= render partial: 'cover_photo' %>
+
+
+
+  <!--row for home about photos friends links-->
+  <!-- remove btn-link to highlight page currently selected-->
+
+
+
+ <%= render partial: 'nav_links' %>
+
+
+<!--First 4 pack of Photos - 1 row -->
+
+
+		<% 4.times do %>
+
+			<%= render partial: 'photo_container' %>
+
+		<% end %>
+
+
+
+

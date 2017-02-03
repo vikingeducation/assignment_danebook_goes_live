@@ -1,0 +1,126 @@
+
+<div class="container plain-border">
+
+<%= render partial: 'cover_photo' %>
+
+  <!--row for home about photos friends links-->
+  <!-- remove btn-link to show page currently selected-->
+
+
+<%= render partial: 'nav_links' %>
+
+
+<!--Edit Profile box-->
+    <div class="row default-box-header plain-border">
+        <div class="col-xs-4 col-sm-offset-4">
+            <header>
+                <h2>About</h2>
+            </header>
+        </div>
+        <div class="col-xs-4">
+            <a href="about_edit.html"><button class="btn btn-primary pull-right header-button hide" type="button" input="submit">Edit Your Profile
+            </button></a>
+        </div>
+    </div>
+
+<!--main content of profile box-->
+    <!--BASIC INFORMATION LEFT SIDE-->
+    <div class="row added-form-margin">
+      <div class="col-xs-12 col-sm-6">
+        <h3>Basic Information</h3>
+            <!--birthday-->
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>Birthday:</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>July 31st,1980</p>
+                </div>
+            </div>
+            <!--college-->
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>College:</p>
+                </div>
+                <!--form input for college-->
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="college" placeholder="Bradley"></input>
+                </div>
+            </div>
+            <!--Hometown-->
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>Hometown:</p>
+                </div>
+                <!--form input for hometown-->
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="hometown" placeholder="Palatine, IL"></input>
+                </div>
+            </div>
+            <!--Currently living-->
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>Currently Lives:</p>
+                </div>
+                <!--form input for living-->
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="living" placeholder="Schaumburg, IL"></input>
+                </div>
+            </div>
+            <!--CONTACT INFO-->
+            <div class="row">
+              <div class="col-xs-12">
+                <h3>Contact Information</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6">
+                <p>Email:</p>
+              </div>
+              <div class="col-xs-6">
+                <p>joebernardi@hotmail.com</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6">
+                <p>Telephone:</p>
+              </div>
+                <!--form input for phone#-->
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="phone" placeholder="233-231-1642"></input>
+                </div>
+            </div>
+      </div><!--col BASIC INFO left side-->
+
+    <!--/.BASIC INFO RIGHT SIDE-->
+
+    <div class="col-sm-6">
+        <h3>Words to Live By</h3>
+        <div class="row">
+            <article class="col-xs-12">
+                <textarea class="form-control" rows="3" placeholder="Lorem ipsum Incididunt cillum in elit fugiat minim elit magna et dolor officia quis Duis."></textarea>
+            </article>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>About Me</h3>
+            </div>
+        </div>
+
+        <article class="row">
+            <div class="col-xs-12">
+                <textarea class="form-control" rows="8" placeholder="Lorem ipsum Pariatur ullamco nisi Excepteur anim consectetur dolor exercitation proident nulla officia ut in laborum anim mollit ut minim aute exercitation veniam nulla nisi nulla ut aute."></textarea>
+
+            </div>
+        </article>
+    </div><!--col BASIC INFO LEFT SIDE-->
+
+
+
+  </div><!--/.row for BASIC INFO-->
+      <div class="row extra-margin">
+        <div class="col-sm-4 col-sm-offset-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Save Changes</button>
+        </div>
+    </div>
+</div> <!--/.container-->
