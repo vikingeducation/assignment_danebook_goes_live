@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default">		<!-- Top Nav -->
+  <div class="container-fluid">
+    <div class="navbar-header navbar-left">
+      <img src="assets/danish_flag.gif">
+      <h2>Danebook</h2>
+    </div>
+    <div class="navbar-header navbar-left">
+      <form class="navbar-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search for Users">
+        </div>
+      </form>
+    </div>
+    <div class="navbar-header navbar-right">
+      <h3>Harry</h3>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron"><!--Main photos -->
+  <div class="container" id="profile">
+    <img src="assets/harry_potter_small.jpg">
+    <h2>Harry Potter</h2>
+  </div>
+</div><!-- jumbotron -->
+
+<nav class="navbar navbar-nav"><!-- Middle Nav Links -->
+  <div class="middle-nav">
+    <ul>
+      <li><%= link_to "Timeline", timeline_path %></li>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Photos (123)", photos_path %></li>
+      <li><%= link_to "Friends (532)", friends_path %></li>
+    </ul>
+    <%= link_to "Edit Profile", about_edit_path %></a>
+  </div>
+</nav><!-- close middle nav -->
