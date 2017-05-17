@@ -8,7 +8,6 @@ $default: black;
 body {
   margin: 0;
 }
-
 .navbar-default {
   background-color: $header-background;
   height: 75px;
@@ -42,36 +41,38 @@ body {
   }
 }
 
-main {
-  margin-top: 100px;
-  line-height: 3;
-  h2 {
+.home_page {
+  main {
+    margin-top: 100px;
+    line-height: 3;
+    h2 {
+      font-weight: bold;
+    }
+    li {
+      font-size: 16px;
+    }
+  }
+
+  #first {
+    margin-right:  60px;
+  }
+
+  #mail {
+    margin-top: 10px;
+
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .radio {
+    display: inline-block;
+    line-height: normal;
+  }
+
+  .btn-success {
+    width: 457px;
     font-weight: bold;
-  }
-  li {
     font-size: 16px;
+    box-shadow: 5px 5px 5px $default;
   }
-}
-
-#first {
-  margin-right:  60px;
-}
-
-#mail {
-  margin-top: 10px;
-
-}
-.dropdown {
-  display: inline-block;
-}
-.radio {
-  display: inline-block;
-  line-height: normal;
-}
-
-.btn-success {
-  width: 457px;
-  font-weight: bold;
-  font-size: 16px;
-  box-shadow: 5px 5px 5px $default;
 }
