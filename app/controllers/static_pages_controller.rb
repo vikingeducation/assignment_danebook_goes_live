@@ -5,4 +5,7 @@ class StaticPagesController < ApplicationController
 
   def timeline
   end
+
+  def friends
+  end
 end
