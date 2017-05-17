@@ -14,7 +14,11 @@
   </head>
 
   <body>
-    <%= render "shared/nav" %>
+    <% if @signed_in %>
+      <%= render "shared/nav" %>
+    <% else %>
+      <%= render "shared/nav_sign_in" %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
