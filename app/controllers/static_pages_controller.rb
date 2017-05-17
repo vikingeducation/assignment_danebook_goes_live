@@ -19,4 +19,8 @@ class StaticPagesController < ApplicationController
   def photos
     @signed_in = true
   end
+
+  def about_edit
+    @signed_in = true
+  end
 end
