@@ -1,4 +1,11 @@
-danebook_goes_live
-==================
+danebook
 
-This is your README!
+This is the Real Dane Deal.
+
+# Danebook
+
+## [Efraim](http://github.com/efraimmgon)
+
+Description
+
+[Viking Code School](http://vikingcodeschool.com)
