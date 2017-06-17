@@ -9,18 +9,24 @@ $white: #fff;
   .container-fluid {
     background-color: #3b5998;
 
-    .navbar-form .btn {
-      background-color: #365899;
-      border-color: #29487d;
-      color: $white;
+    .navbar-form {
+      button {
+        background-color: #365899;
+        border-color: #29487d;
+        color: $white;
+      }
     }
 
-    .navbar-brand,
-    .navbar-form .form-group label {
-      color: $white;
+    .navbar-form {
+      .form-group {
+        label {
+          color: $white;
+        }
+      }
     }
 
     .navbar-brand {
+      color: $white;
       font-size: 28px;
     }
   }
