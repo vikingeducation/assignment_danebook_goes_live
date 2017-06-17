@@ -2,9 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$primary-color: #fff;
+$white: #fff;
 
-/* Styles for navbar */
+/* Styles for logged-out-navbar */
 #logged-out-navbar {
   .container-fluid {
     background-color: #3b5998;
@@ -12,12 +12,12 @@ $primary-color: #fff;
     .navbar-form .btn {
       background-color: #365899;
       border-color: #29487d;
-      color: $primary-color;
+      color: $white;
     }
 
     .navbar-brand,
     .navbar-form .form-group label {
-      color: $primary-color;
+      color: $white;
     }
 
     .navbar-brand {
@@ -26,17 +26,22 @@ $primary-color: #fff;
   }
 }
 
-.list-container {
-  margin-top: 12px;
-}
+/* Styles for home page */
+#homepage {
+  .container-fluid {
+    .list-container {
+      margin-top: 12px;
+    }
 
-.signup-header {
-  margin-left: 12px;
-}
+    .signup-header {
+      margin-left: 12px;
+    }
 
-/* Styles for signup button */
-#signup-button {
-  background-color: #79bc64;
-  color: $primary-color;
-  font-size: 20px;
+    /* Styles for signup button */
+    #signup-button {
+      background-color: #79bc64;
+      color: $white;
+      font-size: 20px;
+    }
+  }
 }
