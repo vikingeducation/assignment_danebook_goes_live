@@ -5,22 +5,24 @@
 $primary-color: #fff;
 
 /* Styles for navbar */
-#navbar-container {
-  background-color: #3b5998;
+#logged-out-navbar {
+  .container-fluid {
+    background-color: #3b5998;
 
-  .navbar-form .btn {
-    background-color: #365899;
-    border-color: #29487d;
-    color: $primary-color;
-  }
+    .navbar-form .btn {
+      background-color: #365899;
+      border-color: #29487d;
+      color: $primary-color;
+    }
 
-  .navbar-brand,
-  .navbar-form .form-group label {
-    color: $primary-color;
-  }
+    .navbar-brand,
+    .navbar-form .form-group label {
+      color: $primary-color;
+    }
 
-  .navbar-brand {
-    font-size: 28px;
+    .navbar-brand {
+      font-size: 28px;
+    }
   }
 }
 
