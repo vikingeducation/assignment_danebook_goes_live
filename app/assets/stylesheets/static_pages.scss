@@ -295,6 +295,13 @@ li.current.disabled > a {
 
 // Styles for Friends page
 #friends {
+  .friends-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
   .friend-panel {
     border: 1px solid $border-color;
     margin-top: 20px;
