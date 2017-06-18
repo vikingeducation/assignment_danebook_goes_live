@@ -307,3 +307,21 @@ li.current.disabled > a {
     margin: 10px;
   }
 }
+
+// Styles for About page
+#about {
+  div.col-sm-2.col-sm-offset-10 {
+    position: relative;
+  }
+
+  .information-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
+  .key {
+    font-weight: bold;
+  }
+}

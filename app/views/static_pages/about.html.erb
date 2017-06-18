@@ -1,0 +1,107 @@
+<%= render 'logged_in_navbar' %>
+
+<div id="about">
+  <main class="container">
+    <!-- cover photo and profile picture -->
+    <section class="row">
+      <div class="col-sm-12">
+        <div class="cover-photo-container">
+          <h2 class="profile-name">Harry Potter</h2>
+          <img class="profile-picture" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform">
+        </div>
+      </div>
+    </section>
+
+    <!-- middle navigation links -->
+    <nav class="row">
+      <div class="col-sm-12">
+        <ul class="nav nav-pills nav-justified">
+          <li role="presentation" class="empty-link"></li>
+          <li role="presentation"><a href="timeline.html">Timeline</a></li>
+          <li role="presentation" class="current disabled"><a href="#">About</a></li>
+          <li role="presentation"><a href="photos.html">Photos <span class="muted">(123)</span></a></li>
+          <li role="presentation"><a href="friends.html">Friends <span class="muted">(456)</span></a></li>
+          <li role="presentation" class="last-link"><a class="edit-profile-link" href="about_edit.html">Edit Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About panel -->
+    <section>
+      <!-- header for About panel -->
+      <header>
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="main-panel-header">About</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2 col-sm-offset-10">
+            <a href="about_edit.html"><button class="header-button btn btn-primary btn-sm">Edit your Profile</button></a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Actual information -->
+      <section class="information-panel">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm-4 col-sm-offset-1">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>Basic Information</h2>
+                <div class="row">
+                  <div class="col-sm-5 col-xs-4">
+                    <p class="key">Birthday:</p>
+                    <p class="key">College:</p>
+                    <p class="key">Hometown:</p>
+                    <p class="key">Currently Lives:</p>
+                  </div>
+                  <div class="col-sm-7 col-xs-8">
+                    <p>July 31st, 1980</p>
+                    <p>Hogwarts College</p>
+                    <p>Godrick's Hollow, England</p>
+                    <p>Godrick's Hollow, England</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>Contact Information</h2>
+                <div class="row">
+                  <div class="col-sm-5 col-xs-4">
+                    <p class="key">Email:</p>
+                    <p class="key">Telephone:</p>
+                  </div>
+                  <div class="col-sm-7 col-xs-8">
+                    <p>harry_potter@hogwarts.edu</p>
+                    <p>555-123-4567</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right column -->
+          <div class="col-sm-6 col-sm-offset-1">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>Words to Live By</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloribus dolore omnis, excepturi repellat asperiores sint nulla ab voluptates veritatis in magnam, incidunt, corporis animi recusandae vel eaque ipsa quas.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eius, ducimus. Quia neque quo, id sequi ducimus molestias temporibus possimus saepe sunt, molestiae impedit illum, assumenda error repellendus magnam provident.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+</div>
