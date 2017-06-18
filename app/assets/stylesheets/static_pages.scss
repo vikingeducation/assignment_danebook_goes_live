@@ -7,8 +7,134 @@ $brand-color: #3b5998;
 $border-color: #ccc;
 $light-gray: #f9f9f9;
 
+/*
+===========================================
+Global styles shared across multiple pages
+===========================================
+*/
 
-/* Styles for navbar (when user is logged out) */
+.muted {
+  color: #ccc;
+}
+
+.muted-background {
+  background-color: $light-gray;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
+.header-button {
+  position: absolute;
+  bottom: 12px;
+
+  @media(max-width: 991px) {
+    right: 24px;
+  }
+}
+
+.main-panel-header {
+  background-color: $light-gray;
+  border: 1px solid $border-color;
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+// cover photo styles
+.cover-photo-container {
+  height: 300px;
+  width: auto;
+  background: url("/hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid $border-color;
+  border-top: 0;
+  border-bottom: 0;
+  position: relative;
+}
+
+/* profile picture styles */
+.profile-picture {
+  height: 150px;
+  width: auto;
+  position: absolute;
+  left: 20px;
+  top: 170px;
+  border: 1px solid $border-color;
+
+  /*
+  @media(max-width: 767px) {
+    left: 130px;
+    top: 130px;
+  }
+  */
+}
+
+// profile name styles
+.profile-name {
+  color: #fff;
+  position: absolute;
+  bottom: 6px;
+  left: 140px;
+}
+
+// middle navigation links styles
+.nav-pills > li > a {
+  border-radius: 0;
+}
+
+.nav-pills > li {
+  border: 1px solid $border-color;
+  border-top: 0;
+  border-right: 0;
+  @media(max-width: 767px) {
+    border-right: 1px solid $border-color;
+  }
+}
+
+.nav-pills > li:last-of-type {
+  border-right: 1px solid $border-color;
+}
+
+.nav-pills > .empty-link {
+  width: 2%;
+  @media(max-width: 991px) {
+    width: 4%;
+  }
+  @media(max-width: 767px) {
+    display: none;
+  }
+}
+
+.nav-pills > .last-link > a {
+  // padding-left: 36%;
+}
+
+.current {
+  background-color: $light-gray;
+}
+
+li.current.disabled > a {
+  color: #333;
+}
+
+// Edit Profile link in middle navigation links
+/*
+.nav-justified > li > a.edit-profile-link {
+  text-align: right;
+}
+*/
+
+// Styles for navbar (when user is logged out)
 #logged-out-navbar {
   .container-fluid {
     background-color: #3b5998;
@@ -36,7 +162,7 @@ $light-gray: #f9f9f9;
   }
 }
 
-/* Styles for home page */
+// Styles for home page
 #homepage {
   .container-fluid {
     .list-wrapper {
@@ -56,7 +182,7 @@ $light-gray: #f9f9f9;
   }
 }
 
-/* Styles for navbar (when user is logged in) */
+// Styles for navbar (when user is logged in)
 #logged-in-navbar {
   .navbar {
     background-color: $brand-color;
@@ -99,6 +225,70 @@ $light-gray: #f9f9f9;
     .form-group,
     .form-control {
       width: 100%;
+    }
+  }
+}
+
+// Styles for Timeline page
+#timeline {
+  .container {
+    padding-top: 50px;
+  }
+
+  .timeline-panel {
+    border: 1px solid $border-color;
+    margin: 20px auto;
+    margin-bottom: 0;
+  }
+
+  .timeline-panel-header {
+    background-color: $light-gray;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid $border-color;
+  }
+
+  /* TODO: refactor/rename */
+  .timeline-panel-link {
+    text-align: center;
+    text-decoration: underline;
+
+    @media(max-width: 767px) {
+      text-align: left;
+    }
+  }
+
+  .photo-icon {
+    width: 100px;
+  }
+
+  .friend-icon {
+    width: 100px;
+    border: 1px solid $border-color;
+    margin-bottom: 4px;
+  }
+
+  .timeline-panel-links-bar {
+    background-color: $light-gray;
+    padding: 6px 0;
+  }
+
+  button.pull-right {
+    margin-right: 15px;
+  }
+
+  /* TODO: refactor/rename */
+  .post-photo-icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid $border-color;
+    margin: 10px 0;
+  }
+
+  .posted-by {
+    margin: 15px 0;
+    @media(max-width: 767px) {
+      margin-left: 0;
     }
   }
 }

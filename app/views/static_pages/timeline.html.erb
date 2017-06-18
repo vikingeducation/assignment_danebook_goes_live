@@ -1,3 +1,395 @@
 <%= render 'logged_in_navbar' %>
 
-<h1>Hello Timeline!</h1>
+<div id="timeline">
+  <main class="container">
+    <!-- cover photo and profile picture -->
+    <section class="row">
+      <div class="col-sm-12">
+        <div class="cover-photo-container">
+          <h2 class="profile-name">Harry Potter</h2>
+          <img class="profile-picture" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform">
+        </div>
+      </div>
+    </section>
+
+    <!-- middle navigation links -->
+    <nav class="row">
+      <div class="col-sm-12">
+        <ul class="nav nav-pills nav-justified">
+          <li role="presentation" class="empty-link"></li>
+          <li role="presentation" class="current disabled"><a href="timeline.html">Timeline</a></li>
+          <li role="presentation"><a href="#">About</a></li>
+          <li role="presentation"><a href="photos.html">Photos <span class="muted">(123)</span></a></li>
+          <li role="presentation"><a href="friends.html">Friends <span class="muted">(456)</span></a></li>
+          <li role="presentation" class="last-link"><a class="edit-profile-link" href="about_edit.html">Edit Profile</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <div class="row">
+
+        <!-- left column -->
+        <div class="col-sm-5">
+          <div class="col-sm-12">
+
+            <!-- About panel -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <header class="col-sm-12 timeline-panel-header">
+                    <h4>About</h4>
+                  </header>
+                </div>
+                <div class="row">
+                  <article class="col-sm-12">
+                    <p><span class="key">Born on: </span>July 31st, 1980</p>
+                    <p><span class="key">Went to school at: </span>Hogwarts</p>
+                    <p><span class="key">Hometown: </span>Godrick's Hollow, England</p>
+                    <p><span class="key">Currently Lives: </span>Godrick's Hollow, England</p>
+                  </article>
+                </div>
+              </section>
+            </div>
+
+            <!-- Photos panel -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <header class="col-sm-12 timeline-panel-header">
+                    <h4>Photos <span class="muted">(123)</span></h4>
+                  </header>
+                </div>
+                <div class="row">
+                  <article class="col-sm-12">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="icon_photo_small.png" class="photo-icon" alt="A generic icon of a photo."></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 timeline-panel-link">
+                        <a href="photos.html"><p>See More Photos</p></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </section>
+            </div>
+
+            <!-- Friends panel -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <header class="col-sm-12 timeline-panel-header">
+                    <h4>Friends <span class="muted">(456)</span></h4>
+                  </header>
+                </div>
+                <div class="row">
+                  <article class="col-sm-12">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="#"><img src="user_silhouette_generic.png" class="friend-icon" alt="A generic user silhouette."></a>
+                        <a href="#" class="timeline-panel-link"><p>Ron Weasley</p></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="user_silhouette_generic.png" class="friend-icon" alt="A generic user silhouette."></a>
+                        <a href="#" class="timeline-panel-link"><p>Ginny Weasley</p></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="user_silhouette_generic.png" class="friend-icon" alt="A generic user silhouette."></a>
+                        <a href="#" class="timeline-panel-link"><p>Hermione Granger</p></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="#"><img src="user_silhouette_generic.png" class="friend-icon" alt="A generic user silhouette."></a>
+                        <a href="#" class="timeline-panel-link"><p>Hagrid</p></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="user_silhouette_generic.png" class="friend-icon" alt="A generic user silhouette."></a>
+                        <a href="#" class="timeline-panel-link"><p>Albus Dumbledore</p></a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="#"><img src="user_silhouette_generic.png" class="friend-icon" alt="A generic user silhouette."></a>
+                        <a href="#" class="timeline-panel-link"><p>Sirius Black</p></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 timeline-panel-link">
+                        <a href="friends.html"><p>See More Friends</p></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </section>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- right column -->
+        <div class="col-sm-7">
+          <div class="col-sm-12">
+
+            <!-- New Post panel -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <header class="col-sm-12 timeline-panel-header">
+                    <h4>Post</h4>
+                  </header>
+                </div>
+                <div class="row">
+                  <form class="col-sm-12" action="#" method="post" id="new-post">
+                    <div class="form-group">
+                      <textarea rows="2" class="form-control" name="" placeholder="Tell the world something.."></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="row">
+                  <footer class="col-sm-12 timeline-panel-links-bar clearfix">
+                    <button type="submit" form="new-post" class="btn btn-primary btn-sm pull-right">Post</button>
+                  </footer>
+                </div>
+              </section>
+            </div>
+
+            <!-- Post #1 -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <div class="col-sm-2 col-xs-3">
+                    <img src="user_silhouette_generic.png" class="post-photo-icon" alt="A generic icon of a photo.">
+                    <!-- <img class="post-photo-icon" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform"> -->
+                  </div>
+                  <div class="col-sm-10 col-xs-9">
+                    <div class="row">
+                      <div class="col-sm-12 col-xs-12 posted-by">
+                        <a href="about.html"><p>Harry Potter</p></a>
+                        <p><span class="muted">Posted on Thursday 6/15/2014</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <article class="col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptate, quia, ipsa id dolor praivesentium illo vero explicabo asperiores consequatur fugiat quod numquam. Unde, deleniti optio voluptate, sapiente tempore aperiam.</p>
+                  </article>
+                </div>
+                <div class="row">
+                  <section class="col-sm-12 timeline-panel-links-bar">
+                    <div class="col-sm-1 col-xs-4">
+                      <a href="#" class="timeline-panel-link"><p>Like</p></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-4">
+                      <a href="#" class="timeline-panel-link"><p>Comment</p></a>
+                    </div>
+                    <div class="col-sm-2 col-sm-offset-7 col-xs-4">
+                      <a href="#" class="timeline-panel-link"><p>Delete</p></a>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+            <!-- Post #2 -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <div class="col-sm-2 col-xs-3">
+                    <img src="user_silhouette_generic.png" class="post-photo-icon" alt="A generic icon of a photo.">
+                    <!-- <img class="post-photo-icon" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform"> -->
+                  </div>
+                  <div class="col-sm-10 col-xs-9">
+                    <div class="row">
+                      <div class="col-sm-12 col-xs-12 posted-by">
+                        <a href="about.html"><p>Harry Potter</p></a>
+                        <p><span class="muted">Posted on Thursday 6/8/2014</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <article class="col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, ipsa sed voluptate consequuntur pariatur unde expedita deserunt, architecto? Necessitatibus ullam cum nulla neque totam porro molestiae quisquam eum recusandae exercitationem.</p>
+                  </article>
+                </div>
+                <div class="row">
+                  <section class="col-sm-12 timeline-panel-links-bar">
+                    <div class="col-sm-1 col-xs-4">
+                      <a href="#" class="timeline-panel-link"><p>Like</p></a>
+                    </div>
+                    <div class="col-sm-2 col-xs-4">
+                      <a href="#" class="timeline-panel-link"><p>Comment</p></a>
+                    </div>
+                    <div class="col-sm-2 col-sm-offset-7 col-xs-4">
+                      <a href="#" class="timeline-panel-link"><p>Delete</p></a>
+                    </div>
+                  </section>
+                </div>
+                <div class="row">
+                  <section class="col-sm-12 muted-background">
+                    <p><a href="#" class="timeline-panel-link">Hermione Granger</a> likes this.</p>
+                  </section>
+                </div>
+              </section>
+            </div>
+
+            <!-- Post #3 -->
+            <div class="row">
+              <section class="col-sm-12 timeline-panel">
+                <div class="row">
+                  <div class="col-sm-2 col-xs-3">
+                    <img src="user_silhouette_generic.png" class="post-photo-icon" alt="A generic icon of a photo.">
+                    <!-- <img class="post-photo-icon" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform"> -->
+                  </div>
+                  <div class="col-sm-10 col-xs-9">
+                    <div class="row">
+                      <div class="col-sm-12 col-xs-12 posted-by">
+                        <a href="about.html"><p>Harry Potter</p></a>
+                        <p><span class="muted">Posted on Thursday 6/1/2014</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <article class="col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur consequatur velit magnam, fugiat tempore suscipit eligendi nesciunt labore sapiente nemo delectus quasi harum cum molestias autem ea id veritatis quibusdam.</p>
+                  </article>
+                </div>
+                <div class="row">
+                  <section class="col-sm-12 timeline-panel-links-bar">
+                    <div class="col-sm-1 col-xs-6">
+                      <a href="#" class="timeline-panel-link"><p>Unlike</p></a>
+                    </div>
+                    <div class="col-sm-2 col-sm-offset-9 col-xs-6">
+                      <a href="#" class="timeline-panel-link"><p>Delete</p></a>
+                    </div>
+                  </section>
+                </div>
+                <div class="row">
+                  <section class="col-sm-12 muted-background">
+                    <p><span class="muted">You and </span><a href="#" class="timeline-panel-link">Hermione Granger</a> <span class="muted">and 3 others</span> like this.</p>
+                  </section>
+                </div>
+
+                <!-- horizontal rule -->
+                <div class="row">
+                  <div class="col-sm-12 muted-background">
+                    <hr>
+                  </div>
+                </div>
+
+                <!-- post comment -->
+                <div class="row">
+                  <section class="col-sm-12 post-comment muted-background">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="user_silhouette_generic.png" class="post-photo-icon" alt="A generic icon of a photo.">
+                      </div>
+                      <div class="col-sm-10">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <p><a href="#" class="timeline-panel-link">Ron Weasley</a> <span class="muted">Said on Thursday 6/1/2014:</span></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quia amet architecto maiores, ea vitae, iusto. Labore illo illum aliquam, ad quasi sit, sunt a officia nihil atque adipisci, molestiae.</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-1">
+                            <a href="#" class="timeline-panel-link">Like</a>
+                          </div>
+                          <div class="col-sm-11">
+                            <p><span class="muted">3 other people like this</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <!-- post comment -->
+                <div class="row">
+                  <section class="col-sm-12 post-comment muted-background">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="user_silhouette_generic.png" class="post-photo-icon" alt="A generic icon of a photo.">
+                      </div>
+                      <div class="col-sm-10">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <p><a href="#" class="timeline-panel-link">Harry Potter</a> <span class="muted">Said on Friday 6/2/2014:</span></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deserunt hic delectus, quas nobis facilis quos harum accusantium obcaecati dolores pariatur. Possimus id modi quaerat maiores dicta minima, delectus illo!</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-1">
+                            <a href="#" class="timeline-panel-link">Like</a>
+                          </div>
+                          <div class="col-sm-9">
+                            <p><span class="muted">3 other people like this</span></p>
+                          </div>
+                          <div class="col-sm-2">
+                            <a href="#" class="timeline-panel-link">Delete</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+
+                <!-- form to write a new comment -->
+                <div class="row">
+                  <section class="col-sm-12 muted-background">
+                    <div class="row">
+                      <form class="col-sm-12" action="#" method="post" id="new-comment">
+                        <div class="form-group">
+                          <textarea rows="4" class="form-control" name="" placeholder="Write a comment.."></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <a href="#" class="timeline-panel-link">Cancel</a>
+                      </div>
+                      <div class="col-sm-2 col-md-offset-8 timeline-panel-links-bar">
+                        <button type="submit" form="new-post" class="btn btn-primary btn-sm">Comment</button>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
