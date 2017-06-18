@@ -292,3 +292,18 @@ li.current.disabled > a {
     }
   }
 }
+
+// Styles for Friends page
+#friends {
+  .friend-panel {
+    border: 1px solid $border-color;
+    margin-top: 20px;
+  }
+
+  .friend-photo {
+    width: 100px;
+    height: 100px;
+    border: 1px solid $border-color;
+    margin: 10px;
+  }
+}
