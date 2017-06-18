@@ -359,3 +359,32 @@ li.current.disabled > a {
     border: 1px solid $border-color;
   }
 }
+
+// Styles for About Edit page
+#about-edit {
+  .edit-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
+  .date-input {
+      width: 100%;
+  }
+
+  .date-input.date-placeholder::before {
+      width: 100%;
+      content: attr(placeholder);
+      color: #999;
+  }
+
+  .date-input.date-placeholder:hover::before {
+      width: 0%;
+      content: "";
+  }
+
+  .save-changes-button {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,122 @@
+<%= render 'logged_in_navbar' %>
+
+<div id="about-edit">
+  <main class="container">
+    <!-- cover photo and profile picture -->
+    <section class="row">
+      <div class="col-sm-12">
+        <div class="cover-photo-container">
+          <h2 class="profile-name">Harry Potter</h2>
+          <img class="profile-picture" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform">
+        </div>
+      </div>
+    </section>
+
+    <!-- middle navigation links -->
+    <nav class="row">
+      <div class="col-sm-12">
+        <ul class="nav nav-pills nav-justified">
+          <li role="presentation" class="empty-link"></li>
+          <li role="presentation"><a href="timeline.html">Timeline</a></li>
+          <li role="presentation" class="current disabled"><a href="#">About</a></li>
+          <li role="presentation"><a href="photos.html">Photos <span class="muted">(123)</span></a></li>
+          <li role="presentation"><a href="friends.html">Friends <span class="muted">(456)</span></a></li>
+          <li role="presentation" class="empty-link"></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Edit Profile panel -->
+    <section>
+      <!-- header for Edit Profile panel -->
+      <header>
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="main-panel-header">Edit Profile</h2>
+          </div>
+        </div>
+      </header>
+
+      <!-- Form -->
+      <section class="edit-panel">
+        <form class="form-horizontal" action="#" method="post" id="">
+          <div class="row">
+            <!-- left column -->
+            <div class="col-sm-5 col-sm-offset-1">
+
+              <!-- Basic Information -->
+              <h2>Basic Information</h2>
+              <div class="form-group">
+                <label for="inputBirthday" class="col-sm-4 control-label">Birthday:</label>
+                <div class="col-sm-8">
+                  <!-- <input type="date" class="form-control" id="inputBirthday"> -->
+                  <input type="date" placeholder="July 31st, 1980" onClick="$(this).removeClass('date-placeholder')" class="form-control date-input date-placeholder">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputCollege" class="col-sm-4 control-label">College:</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputCollege" placeholder="Hogwarts College">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputHometown" class="col-sm-4 control-label">Hometown:</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputHometown" placeholder="Godrick's Hollow, England">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputCurrentlyLives" class="col-sm-4 control-label">Currently Lives:</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputCurrentlyLives" placeholder="Godrick's Hollow, England">
+                </div>
+              </div>
+
+              <!-- Contact Information -->
+              <h2>Contact Information</h2>
+              <div class="form-group">
+                <label for="inputEmail" class="col-sm-4 control-label">Email:</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="harry_potter@hogwarts.edu">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputTelephone" class="col-sm-4 control-label">Telephone:</label>
+                <div class="col-sm-8">
+                  <input type="telephone" class="form-control" id="inputTelephone" placeholder="555-123-4567">
+                </div>
+              </div>
+            </div>
+
+            <!-- right column -->
+            <div class="col-sm-6">
+              <!-- Words to Live By -->
+              <h2>Words to Live By</h2>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <textarea rows="2" class="form-control" name="" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos tempore soluta dicta, labore cum, dolorem molestias quod, repellat nisi nemo harum pariatur nam facilis ipsum quibusdam quas! Nesciunt, delectus quod!"></textarea>
+                </div>
+              </div>
+
+              <!-- About Me -->
+              <h2>About Me</h2>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <textarea rows="10" class="form-control" name="" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos tempore soluta dicta, labore cum, dolorem molestias quod, repellat nisi nemo harum pariatur nam facilis ipsum quibusdam quas! Nesciunt, delectus quod!"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Save Changes button -->
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <button class="btn btn-primary btn-lg btn-block save-changes-button">Save Changes</button>
+            </div>
+          </div>
+
+        </form>
+      </section>
+    </section>
+  </main>
+</div>

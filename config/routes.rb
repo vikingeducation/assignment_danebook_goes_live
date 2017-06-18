@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get '/about', to: 'static_pages#about', as: :about
 
   get '/photos', to: 'static_pages#photos', as: :photos
+
+  get '/about_edit', to: 'static_pages#about_edit', as: :about_edit
 end
