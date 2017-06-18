@@ -3,8 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $white: #fff;
+$brand-color: #3b5998;
+$border-color: #ccc;
+$light-gray: #f9f9f9;
 
-/* Styles for logged-out-navbar */
+
+/* Styles for navbar (when user is logged out) */
 #logged-out-navbar {
   .container-fluid {
     background-color: #3b5998;
@@ -48,6 +52,53 @@ $white: #fff;
       background-color: #79bc64;
       color: $white;
       font-size: 20px;
+    }
+  }
+}
+
+/* Styles for navbar (when user is logged in) */
+#logged-in-navbar {
+  .navbar {
+    background-color: $brand-color;
+    border: 0;
+
+    .navbar-collapse {
+      /*padding-top: 8px;*/
+      border: 0;
+
+      p.navbar-text {
+        float:right;
+
+        @media(max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+
+    .navbar-logo {
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+    }
+
+    .navbar-text,
+    .navbar-brand {
+      color: $white;
+    }
+
+    .navbar-form {
+      width: 60%;
+      border: 0;
+
+      @media(max-width: 767px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    .form-group,
+    .form-control {
+      width: 100%;
     }
   }
 }
