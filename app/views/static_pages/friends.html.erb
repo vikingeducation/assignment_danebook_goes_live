@@ -2,29 +2,7 @@
 
 <div id="friends">
   <main class="container">
-    <!-- cover photo and profile picture -->
-    <section class="row">
-      <div class="col-sm-12">
-        <div class="cover-photo-container">
-          <h2 class="profile-name">Harry Potter</h2>
-          <img class="profile-picture" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform">
-        </div>
-      </div>
-    </section>
-
-    <!-- middle navigation links -->
-    <nav class="row">
-      <div class="col-sm-12">
-        <ul class="nav nav-pills nav-justified">
-          <li role="presentation" class="empty-link"></li>
-          <li role="presentation"><a href="timeline.html">Timeline</a></li>
-          <li role="presentation"><a href="#">About</a></li>
-          <li role="presentation"><a href="photos.html">Photos <span class="muted">(123)</span></a></li>
-          <li role="presentation" class="current disabled"><a href="friends.html">Friends <span class="muted">(456)</span></a></li>
-          <li role="presentation" class="last-link"><a class="edit-profile-link" href="about_edit.html">Edit Profile</a></li>
-        </ul>
-      </div>
-    </nav>
+    <%= render "profile_and_cover_panel" %>
 
     <!-- Friends panel -->
     <section>

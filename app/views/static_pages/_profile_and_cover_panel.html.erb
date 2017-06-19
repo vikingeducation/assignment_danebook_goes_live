@@ -1,0 +1,34 @@
+<!-- cover photo and profile picture -->
+<section class="row">
+  <div class="col-sm-12">
+    <div class="cover-photo-container">
+      <h2 class="profile-name">Harry Potter</h2>
+      <img class="profile-picture" src="harry_potter_small.jpg" alt="Harry Potter in his Quidditch uniform">
+    </div>
+  </div>
+</section>
+
+<!-- middle navigation links -->
+<nav class="row">
+  <div class="col-sm-12">
+    <ul class="nav nav-pills nav-justified">
+      <li role="presentation" class="empty-link"></li>
+      <li role="presentation">
+        <%= link_to "Timeline", timeline_path %>
+      </li>
+      <li role="presentation">
+        <%= link_to "About", about_path %>
+      </li>
+      <li role="presentation">
+        <%= link_to "Photos", photos_path %>
+      </li>
+      <li role="presentation">
+        <%= link_to "Friends", friends_path %>
+      </li>
+      <li role="presentation">
+        <%= link_to "Edit Profile", about_edit_path %>
+      </li>
+      <li role="presentation" class="empty-link"></li>
+    </ul>
+  </div>
+</nav>
