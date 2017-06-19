@@ -1,0 +1,390 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$white: #fff;
+$brand-color: #3b5998;
+$border-color: #ccc;
+$light-gray: #f9f9f9;
+
+/*
+===========================================
+Global styles shared across multiple pages
+===========================================
+*/
+
+.muted {
+  color: #ccc;
+}
+
+.muted-background {
+  background-color: $light-gray;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
+.header-button {
+  position: absolute;
+  bottom: 12px;
+
+  @media(max-width: 991px) {
+    right: 24px;
+  }
+}
+
+.main-panel-header {
+  background-color: $light-gray;
+  border: 1px solid $border-color;
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+// cover photo styles
+.cover-photo-container {
+  height: 300px;
+  width: auto;
+  background: url("/hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid $border-color;
+  border-top: 0;
+  border-bottom: 0;
+  position: relative;
+}
+
+/* profile picture styles */
+.profile-picture {
+  height: 150px;
+  width: auto;
+  position: absolute;
+  left: 20px;
+  top: 170px;
+  border: 1px solid $border-color;
+
+  /*
+  @media(max-width: 767px) {
+    left: 130px;
+    top: 130px;
+  }
+  */
+}
+
+// profile name styles
+.profile-name {
+  color: #fff;
+  position: absolute;
+  bottom: 6px;
+  left: 140px;
+}
+
+// middle navigation links styles
+.nav-pills > li > a {
+  border-radius: 0;
+}
+
+.nav-pills > li {
+  border: 1px solid $border-color;
+  border-top: 0;
+  border-right: 0;
+  @media(max-width: 767px) {
+    border-right: 1px solid $border-color;
+  }
+}
+
+.nav-pills > li:last-of-type {
+  border-right: 1px solid $border-color;
+}
+
+.nav-pills > .empty-link {
+  width: 2%;
+  @media(max-width: 991px) {
+    width: 4%;
+  }
+  @media(max-width: 767px) {
+    display: none;
+  }
+}
+
+.nav-pills > .last-link > a {
+  // padding-left: 36%;
+}
+
+.current {
+  background-color: $light-gray;
+}
+
+li.current.disabled > a {
+  color: #333;
+}
+
+// Edit Profile link in middle navigation links
+/*
+.nav-justified > li > a.edit-profile-link {
+  text-align: right;
+}
+*/
+
+// Styles for navbar (when user is logged out)
+#logged-out-navbar {
+  .container-fluid {
+    background-color: #3b5998;
+
+    .navbar-form {
+      button {
+        background-color: #365899;
+        border-color: #29487d;
+        color: $white;
+      }
+    }
+
+    .navbar-form {
+      .form-group {
+        label {
+          color: $white;
+        }
+      }
+    }
+
+    .navbar-brand {
+      color: $white;
+      font-size: 28px;
+    }
+  }
+}
+
+// Styles for home page
+#homepage {
+  .container-fluid {
+    .list-wrapper {
+      margin-top: 12px;
+    }
+
+    .signup-header {
+      margin-left: 12px;
+    }
+
+    /* Styles for signup button */
+    #signup-button {
+      background-color: #79bc64;
+      color: $white;
+      font-size: 20px;
+    }
+  }
+}
+
+// Styles for navbar (when user is logged in)
+#logged-in-navbar {
+  .navbar {
+    background-color: $brand-color;
+    border: 0;
+
+    .navbar-collapse {
+      /*padding-top: 8px;*/
+      border: 0;
+
+      p.navbar-text {
+        float:right;
+
+        @media(max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+
+    .navbar-logo {
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+    }
+
+    .navbar-text,
+    .navbar-brand {
+      color: $white;
+    }
+
+    .navbar-form {
+      width: 60%;
+      border: 0;
+
+      @media(max-width: 767px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    .form-group,
+    .form-control {
+      width: 100%;
+    }
+  }
+}
+
+// Styles for Timeline page
+#timeline {
+  .container {
+    padding-top: 50px;
+  }
+
+  .timeline-panel {
+    border: 1px solid $border-color;
+    margin: 20px auto;
+    margin-bottom: 0;
+  }
+
+  .timeline-panel-header {
+    background-color: $light-gray;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid $border-color;
+  }
+
+  /* TODO: refactor/rename */
+  .timeline-panel-link {
+    text-align: center;
+    text-decoration: underline;
+
+    @media(max-width: 767px) {
+      text-align: left;
+    }
+  }
+
+  .photo-icon {
+    width: 100px;
+  }
+
+  .friend-icon {
+    width: 100px;
+    border: 1px solid $border-color;
+    margin-bottom: 4px;
+  }
+
+  .timeline-panel-links-bar {
+    background-color: $light-gray;
+    padding: 6px 0;
+  }
+
+  button.pull-right {
+    margin-right: 15px;
+  }
+
+  /* TODO: refactor/rename */
+  .post-photo-icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid $border-color;
+    margin: 10px 0;
+  }
+
+  .posted-by {
+    margin: 15px 0;
+    @media(max-width: 767px) {
+      margin-left: 0;
+    }
+  }
+}
+
+// Styles for Friends page
+#friends {
+  .friends-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
+  .friend-panel {
+    border: 1px solid $border-color;
+    margin-top: 20px;
+  }
+
+  .friend-photo {
+    width: 100px;
+    height: 100px;
+    border: 1px solid $border-color;
+    margin: 10px;
+  }
+}
+
+// Styles for About page
+#about {
+  div.col-sm-2.col-sm-offset-10 {
+    position: relative;
+  }
+
+  .information-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
+  .key {
+    font-weight: bold;
+  }
+}
+
+// Styles for Photos page
+#photos {
+  .photos-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
+  .friend-photo-lg {
+    width: 230px;
+    height: 230px;
+    border: 1px solid $border-color;
+    margin-top: 10px;
+  }
+
+  .hover-content {
+    display: none;
+  }
+
+  .parent:hover .hover-content {
+    display: block;
+    background-color: $light-gray;
+    border: 1px solid $border-color;
+  }
+}
+
+// Styles for About Edit page
+#about-edit {
+  .edit-panel {
+    border: 1px solid $border-color;
+    border-top: 0;
+    margin-top: -1px;
+    padding-bottom: 30px;
+  }
+
+  .date-input {
+      width: 100%;
+  }
+
+  .date-input.date-placeholder::before {
+      width: 100%;
+      content: attr(placeholder);
+      color: #999;
+  }
+
+  .date-input.date-placeholder:hover::before {
+      width: 0%;
+      content: "";
+  }
+
+  .save-changes-button {
+    margin-top: 40px;
+  }
+}
