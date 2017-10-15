@@ -1,7 +1,7 @@
 <nav id="top-nav" class="navbar navbar-default">
   <div class="navbar-header col-md-offset-1">
     <div class="top-logo navbar-left">
-      <a href="#"><img class="dane-flag img-circle" alt="Danebook" src="lib/assets/danish_flag.gif">
+      <a href="#"><%= image_tag "danish_flag.gif", :class => "dane-flag img-circle" %>
       </a>
     </div>
     <div class="navbar-brand col-md-2">
@@ -17,3 +17,36 @@
    </form>
   </div>
 </nav>
+<main class="container">
+  <div class="row">
+    <div id="main-container" class="bg-primary">
+      <div id="cover-photo" class="bg-info">
+        <%= image_tag "hogwarts_small.jpg", :class => "img-responsive", :alt => "cover photo" %>
+      </div>
+    </div>
+  </div>
+
+<div id="profile-nav" class="row">
+  <div class="navbar-light">
+    <div class="bg-info">
+      <div class="nav-item col-md-2">
+        <%= image_tag "icon_photo_small.png", :class => "profile-image panel panel-default", :alt => "profile photo" %>
+      </div>
+      <div class="col-md-2 panel panel-default">
+        <a class="nav-item nav-link active" href="#">Timeline <span class="sr-only">(current)</span></a>
+      </div>
+      <div class="col-md-2 panel panel-default">
+        <a class="nav-item nav-link" href="about">About</a>
+      </div>
+      <div class="col-md-2 panel panel-default">
+        <a class="nav-item nav-link" href="#">Photos (123)</a>
+      </div>
+      <div class="col-md-2 panel panel-default">
+        <a class="nav-item nav-link" href="#">Friends</a>
+      </div>
+      <div class="col-md-1 pull-right">
+        <a class="nav-item nav-link" href="#">Edit Profile</a>
+      </div>
+    </div>
+  </div>
+</div>
