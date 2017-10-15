@@ -17,36 +17,34 @@
    </form>
   </div>
 </nav>
+
 <main class="container">
   <div class="row">
-    <div id="main-container" class="bg-primary">
-      <div id="cover-photo" class="bg-info">
+      <div id="cover-photo" class="bg-primary">
         <%= image_tag "hogwarts_small.jpg", :class => "img-responsive", :alt => "cover photo" %>
       </div>
-    </div>
   </div>
 
-<div id="profile-nav" class="row">
-  <div class="navbar-light">
-    <div class="bg-info">
-      <div class="nav-item col-md-2">
-        <%= image_tag "icon_photo_small.png", :class => "profile-image panel panel-default", :alt => "profile photo" %>
-      </div>
-      <div class="col-md-2 panel panel-default">
-        <a class="nav-item nav-link active" href="#">Timeline <span class="sr-only">(current)</span></a>
-      </div>
-      <div class="col-md-2 panel panel-default">
-        <a class="nav-item nav-link" href="about">About</a>
-      </div>
-      <div class="col-md-2 panel panel-default">
-        <a class="nav-item nav-link" href="#">Photos (123)</a>
-      </div>
-      <div class="col-md-2 panel panel-default">
-        <a class="nav-item nav-link" href="#">Friends</a>
-      </div>
-      <div class="col-md-1 pull-right">
-        <a class="nav-item nav-link" href="#">Edit Profile</a>
-      </div>
+  <div id="profile-nav" class="row">
+    <div class="navbar-light bg-info">
+
+        <div class="col-md-2">
+          <%= image_tag "icon_photo_small.png", :class => "profile-image", :alt => "profile photo" %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <a class="nav-item nav-link active" href="#">Timeline <span class="sr-only">(current)</span></a>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "About", about_path, class: "nav-item nav-link active" %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "Photos", pain_path %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "Friends", friends_path %>
+        </div>
+        <div class="col-md-1 pull-right">
+          <a class="nav-item nav-link" href="#">Edit Profile</a>
+        </div>
     </div>
   </div>
-</div>
