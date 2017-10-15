@@ -27,24 +27,23 @@
 
   <div id="profile-nav" class="row">
     <div class="navbar-light bg-info">
-
         <div class="col-md-2">
           <%= image_tag "icon_photo_small.png", :class => "profile-image", :alt => "profile photo" %>
         </div>
         <div class="col-md-2 panel panel-default">
-          <a class="nav-item nav-link active" href="#">Timeline <span class="sr-only">(current)</span></a>
+          <%= link_to "Timeline", timeline_path, class: "nav-item nav-link active" %>
         </div>
         <div class="col-md-2 panel panel-default">
           <%= link_to "About", about_path, class: "nav-item nav-link active" %>
         </div>
         <div class="col-md-2 panel panel-default">
-          <%= link_to "Photos", pain_path %>
+          <%= link_to "Photos", photos_path, class: "nav-item nav-link active" %>
         </div>
         <div class="col-md-2 panel panel-default">
-          <%= link_to "Friends", friends_path %>
+          <%= link_to "Friends", friends_path, class: "nav-item nav-link active" %>
         </div>
         <div class="col-md-1 pull-right">
-          <a class="nav-item nav-link" href="#">Edit Profile</a>
+          <%= link_to "Edit Profile", about_edit_path, class: "nav-item nav-link" %>
         </div>
     </div>
   </div>

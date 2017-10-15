@@ -4,6 +4,6 @@ class StaticPagesController < ApplicationController
   def about;  end
   def friends; end
   def timeline; end
-  def pain; end
-  def edit_profile; end
+  def photos; end
+  def about_edit; end
 end
