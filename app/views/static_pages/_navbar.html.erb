@@ -1,0 +1,49 @@
+<nav id="top-nav" class="navbar navbar-default">
+  <div class="navbar-header col-md-offset-1">
+    <div class="top-logo navbar-left">
+      <a href="#"><%= image_tag "danish_flag.gif", :class => "dane-flag img-circle" %>
+      </a>
+    </div>
+    <div class="navbar-brand col-md-2">
+      <h4>Danebook
+      </h4>
+    </div>
+
+    <form class="navbar-form pull-right">
+       <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search">
+       </div>
+       <button type="submit" class="btn btn-default">Submit</button>
+   </form>
+  </div>
+</nav>
+
+<main class="container">
+  <div class="row">
+      <div id="cover-photo" class="bg-primary">
+        <%= image_tag "hogwarts_small.jpg", :class => "img-responsive", :alt => "cover photo" %>
+      </div>
+  </div>
+
+  <div id="profile-nav" class="row">
+    <div class="navbar-light bg-info">
+        <div class="col-md-2">
+          <%= image_tag "icon_photo_small.png", :class => "profile-image", :alt => "profile photo" %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "Timeline", timeline_path, class: "nav-item nav-link active" %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "About", about_path, class: "nav-item nav-link active" %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "Photos", photos_path, class: "nav-item nav-link active" %>
+        </div>
+        <div class="col-md-2 panel panel-default">
+          <%= link_to "Friends", friends_path, class: "nav-item nav-link active" %>
+        </div>
+        <div class="col-md-1 pull-right">
+          <%= link_to "Edit Profile", about_edit_path, class: "nav-item nav-link" %>
+        </div>
+    </div>
+  </div>
