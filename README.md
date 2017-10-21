@@ -1,9 +1,26 @@
-#Danebook
+#  Danebook project warmup
 
-[Dariusz Biskupski](https://github.com/Visiona/assignment_danebook_goes_live)
 
-[Danebook deployed on Heroku](https://fathomless-eyrie-59494.herokuapp.com/)
+This is a warmup assignment in which I built Rails application containing the static HTML/CSS Danebook pages build in project [danebook pages](https://github.com/Visiona/project_danebook_pages). Also project was used in practicing deployment to Heroku.
 
-###This is facebook like social/community portal. These few pages are simple structure of what would become a big portal for people.
+The complete repository of [Project Danebook](https://github.com/Visiona/project_danebook)
 
-This project comes from [Viking Code School](http://vikingcodeschool.com) course.
+
+## Getting Started
+
+If you want to quick run some the examples to see the code in action, and you have installed Ruby and Rails, run
+```
+$ bundle install
+$ rails s
+```
+
+the page will be available in the browser at localhost:3000
+
+## Authors
+
+* **Dariusz Biskupski** - *Initial work* - https://dariuszbiskupski.com
+
+
+## Acknowledgments
+
+It is the assignment created for [Viking Code School](https://www.vikingcodeschool.com/)
